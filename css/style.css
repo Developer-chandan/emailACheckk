@@ -19,7 +19,7 @@ li { list-style: none; }
 .btn-dark { background: var(--black); color: var(--yellow); border: 2px solid var(--black); }
 .btn-primary-outline { background: var(--white); color: var(--purple); border: 2px solid var(--purple); }
 .btn-primary-outline:hover { background: var(--purple); color: var(--white); border: 2px solid var(--purple); }
-.btn-primary:hover {background: #0a080800;color: var(--yellow);border: 2px solid var(--yellow);}
+.btn-primary:hover { background: rgba(10, 8, 8, 0); color: var(--yellow); border: 2px solid var(--yellow); }
 .btn-warning:hover { border: 2px solid var(--yellow); box-shadow: 3px 5px 13px -4px var(--gray); }
 .btn-dark:hover { background: var(--yellow); color: var(--black); border: 2px solid var(--yellow); box-shadow: 3px 5px 13px -4px var(--gray); }
 header { height: 650px; }
@@ -30,6 +30,8 @@ h1.hero_title span { font-size: 5rem; color: var(--yellow); }
 .hero_desc { padding-top: 6rem; }
 .buttons { width: 55%; display: flex; justify-content: space-between; }
 .col-md-5.hero_image { display: flex; align-items: center; }
+
+/* benefits  */
 .content_box { text-align: center; border: 1px solid rgba(221, 221, 221, 0.52); box-shadow: rgba(221, 221, 221, 0.44) 0px 3px 26px 4px; border-radius: 10px; padding: 8rem 32px 32px; position: relative; }
 .content_box > div > h2 { position: absolute; background: white; display: grid; place-items: center; width: 116px; height: 116px; top: -53px; left: 50%; transform: translateX(-50%); border-radius: 50%; border: 11px solid rgba(227, 227, 227, 0.38); color: var(--yellow); outline: rgb(221, 221, 221) solid 1px; }
 .content_box h3 { margin-bottom: 1rem; }
@@ -44,7 +46,7 @@ h1.hero_title span { font-size: 5rem; color: var(--yellow); }
 .pages .page { display: none; }
 .pages .page.is-active { display: flex; }
 .section_title_wrap p { color: var(--dark-gray); }
-.benefits_cards {background: var(--white);display: flex;flex-direction: column;align-items: center;border-radius: 10px;text-align: center;padding: 8.3rem 3rem 4rem;cursor: pointer;position: relative;z-index: 2;width: 100%;height: 100%;box-shadow: rgb(221, 221, 221) 1px 5px 23px 1px;border: 1px solid rgb(221, 221, 221);}
+.benefits_cards { background: var(--white); display: flex; flex-direction: column; align-items: center; border-radius: 10px; text-align: center; padding: 8.3rem 3rem 4rem; cursor: pointer; position: relative; z-index: 2; width: 100%; height: 100%; box-shadow: rgb(221, 221, 221) 1px 5px 23px 1px; border: 1px solid rgb(221, 221, 221); }
 #benefites { margin-bottom: 2rem; }
 .section-title { width: 53%; margin: 0px auto 2rem; text-align: center; position: relative; }
 .section-title h1::after { position: absolute; content: ""; width: 66px; height: 3px; background: var(--yellow); bottom: -9px; left: 50%; transform: translateX(-50%); }
@@ -57,66 +59,83 @@ li.tab.is-active { background: rgba(255, 249, 112, 0.57); border-radius: 10px; }
 h1.benefits_number { width: 100px; height: 100px; background: white; border: 8px solid rgb(243, 243, 243); border-radius: 50%; display: grid; place-items: center; font-size: 3.5rem; position: absolute; top: -57px; color: var(--yellow); outline: rgb(227, 227, 227) solid 2px; left: 50%; transform: translateX(-50%); }
 .benefit_to_payee > div, .benefit_to_payor > div { margin-bottom: 10rem; }
 .benefit_to_payee, .benefit_to_payor { justify-content: center; }
+ul.bank_benefit_data li i { color: var(--yellow); margin-right: 1rem; font-size: 1.8rem; background: black; border-radius: 85%; box-shadow: rgb(221, 221, 221) -1px 4px 10px 1px; }
+ul.bank_benefit_data li { display: flex; align-items: center; margin: 10px 0px; }
+ul.bank_benefit_data h3 { padding-bottom: 2rem; }
 
-ul.bank_benefit_data li i {color: var(--yellow);margin-right: 1rem;font-size: 1.8rem;background: black;border-radius: 85%;box-shadow: -1px 4px 10px 1px #ddd;}
+/* instruction video  */
+.row.instruction_video_side { justify-content: center; }
+.row.instruction_video_side > div { flex-direction: column; }
+.video_section_button { text-align: center; }
+.buttons.video_section_button { width: 100%; justify-content: center; margin-top: 5rem; }
+#instruction_video { background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.72)) 0% 0% / cover no-repeat fixed, url("/img/bg.png"); padding: 8rem 0px; }
+section#instruction_video .section-title h1 { color: white; }
+section#instruction_video .section-title p { color: var(--gray); margin-bottom: 4rem; }
+.buttons.video_section_button a:hover { border: 2px solid var(--yellow); color: var(--yellow); }
+.btn-primary:focus, .btn-primary:active { color: var(--yellow); background-color: var(--black); border-color: var(--yellow); }
+h3.partners-title { text-align: center; margin-bottom: 8rem; font-size: 2.2rem; }
+section#partners .row { display: flex; justify-content: center; }
+h3.partners-title span { color: var(--yellow); text-transform: capitalize; font-size: 2rem; }
+section#partners { padding: 8rem 0px; background: rgb(255, 242, 238); }
+.partners_logo {display: flex;justify-content: space-between;padding: 0 3rem;}
+.partners_logo img {width: 18%;}
 
-ul.bank_benefit_data li {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
+
+/* how it works   */
+section#how_it_works .section-title {margin-bottom: 5rem;margin-top: 5rem;}
+
+p.diagram_subtile {
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    position: relative;
+    padding-left: 61px;
+    padding-bottom: 5px;
 }
 
-ul.bank_benefit_data h3 {
-    padding-bottom: 2rem;
+p.diagram_subtile:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: var(--yellow);
+    top: 7px;
+    left: 0;
 }
-
-
-/* instructional_video */
-.row.instruction_video_side {
-    justify-content: center;
+h2.diagram_title {
+    letter-spacing: 1px;
+    color: var(--dark-blue);
+    margin-bottom: 17px;
 }
-
-.row.instruction_video_side > div {
-    flex-direction: column;
+.accordion-button::after{
+    display: none;
 }
-
-
-.video_section_button{
-    text-align: center;
-}
-
-.buttons.video_section_button {
-    width: 100%;
-    justify-content: center;
+div#accordionPanelsStayOpenExample {
     margin-top: 5rem;
 }
-#instruction_video{
-    background: linear-gradient(#000000bf,#000000bd,#000000c4,#000000b8), url(/img/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 8rem 0;
+
+button.accordion-button {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark-blue);
+    text-transform: capitalize;
 }
 
-section#instruction_video .section-title h1 {
-    color: white;
+
+.accordion-button:not(.collapsed) {
+    color: var(--dark-blue);
 }
 
-section#instruction_video .section-title p {
-    color: var(--gray);
-    margin-bottom: 4rem;
+
+
+button.accordion-button i {
+    position: absolute;
+    right: 25px;
 }
 
-.buttons.video_section_button a:hover {
-    border: 2px solid var(--yellow);
-    color: var(--yellow);
-}
-
-.btn-primary:focus,
-.btn-primary:active{
-    color: var(--yellow);
-    background-color: var(--black);
-    border-color: var(--yellow);
+button.accordion-button {
+    position: relative;
 }
 
 
@@ -126,6 +145,39 @@ section#instruction_video .section-title p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
 #footer { background: var(--dark-blue); padding-top: 8rem; }
 #footer h3 { color: var(--white); padding-bottom: 2rem; }
 #footer span, #footer p, #footer a { color: rgb(105, 121, 141); }
