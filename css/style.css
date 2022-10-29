@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
 * { margin: 0px; padding: 0px; box-sizing: border-box; }
-:root { --black: #0a0808; --white: rgba(255, 255, 255, 0.948); --light-black: rgba(18, 17, 22, 0.97); --gray: #ddd; --yellow:#F4B600; --dark-blue: #172b43; --dark-gray: #6a6a6a; }
+:root { --black: #0a0808; --white: rgba(255, 255, 255, 0.948); --light-black: rgba(18, 17, 22, 0.97); --gray: #ddd; --yellow: #F4B600; --dark-blue: #172b43; --dark-gray: #6a6a6a; }
 html { font-size: 10px; scroll-behavior: smooth; overflow-x: hidden; }
 body { font-size: 1.6rem; font-family: Roboto, sans-serif; box-sizing: border-box; }
 h1, h2, h3, a { text-transform: capitalize; font-family: Poppins, sans-serif; color: var(--black); }
@@ -30,8 +30,6 @@ h1.hero_title span { font-size: 5rem; color: var(--yellow); }
 .hero_desc { padding-top: 6rem; }
 .buttons { width: 55%; display: flex; justify-content: space-between; }
 .col-md-5.hero_image { display: flex; align-items: center; }
-
-/* benefits  */
 .content_box { text-align: center; border: 1px solid rgba(221, 221, 221, 0.52); box-shadow: rgba(221, 221, 221, 0.44) 0px 3px 26px 4px; border-radius: 10px; padding: 8rem 32px 32px; position: relative; }
 .content_box > div > h2 { position: absolute; background: white; display: grid; place-items: center; width: 116px; height: 116px; top: -53px; left: 50%; transform: translateX(-50%); border-radius: 50%; border: 11px solid rgba(227, 227, 227, 0.38); color: var(--yellow); outline: rgb(221, 221, 221) solid 1px; }
 .content_box h3 { margin-bottom: 1rem; }
@@ -62,8 +60,6 @@ h1.benefits_number { width: 100px; height: 100px; background: white; border: 8px
 ul.bank_benefit_data li i { color: var(--yellow); margin-right: 1rem; font-size: 1.8rem; background: black; border-radius: 85%; box-shadow: rgb(221, 221, 221) -1px 4px 10px 1px; }
 ul.bank_benefit_data li { display: flex; align-items: center; margin: 10px 0px; }
 ul.bank_benefit_data h3 { padding-bottom: 2rem; }
-
-/* instruction video  */
 .row.instruction_video_side { justify-content: center; }
 .row.instruction_video_side > div { flex-direction: column; }
 .video_section_button { text-align: center; }
@@ -77,70 +73,72 @@ h3.partners-title { text-align: center; margin-bottom: 8rem; font-size: 2.2rem; 
 section#partners .row { display: flex; justify-content: center; }
 h3.partners-title span { color: var(--yellow); text-transform: capitalize; font-size: 2rem; }
 section#partners { padding: 8rem 0px; background: rgb(255, 242, 238); }
-.partners_logo {display: flex;justify-content: space-between;padding: 0 3rem;}
-.partners_logo img {width: 18%;}
-
-
-/* how it works   */
-section#how_it_works .section-title {margin-bottom: 5rem;margin-top: 5rem;}
-
-p.diagram_subtile {
-    font-weight: 600;
-    line-height: 19px;
-    text-transform: uppercase;
-    color: var(--yellow);
-    position: relative;
-    padding-left: 61px;
-    padding-bottom: 5px;
+.partners_logo { display: flex; justify-content: space-between; padding: 0px 3rem; }
+.partners_logo img { width: 18%; }
+section#how_it_works .section-title { margin-bottom: 5rem; margin-top: 5rem; }
+p.diagram_subtile { font-weight: 600; line-height: 19px; text-transform: uppercase; color: var(--yellow); position: relative; padding-left: 61px; padding-bottom: 5px; }
+p.diagram_subtile::before { position: absolute; content: ""; width: 50px; height: 2px; background: var(--yellow); top: 7px; left: 0px; }
+h2.diagram_title { letter-spacing: 1px; color: var(--dark-blue); margin-bottom: 17px; }
+.accordion-button::after { display: none; }
+div#accordionPanelsStayOpenExample { margin-top: 5rem; }
+button.accordion-button { font-weight: 500; font-size: 16px; color: var(--dark-blue); text-transform: capitalize; background: none; }
+.accordion-button:not(.collapsed) { color: var(--dark-blue); }
+button.accordion-button i { position: absolute; right: 25px; }
+button.accordion-button { position: relative; }
+button.accordion-button .fa-angle-up { display: block; }
+button.accordion-button .fa-angle-down { display: none; }
+button.accordion-button.collapsed .fa-angle-down { display: block; }
+button.accordion-button.collapsed .fa-angle-up { display: none; }
+.accordion-button:focus { box-shadow: none; border: none; }
+.accordion-button:not(.collapsed) { background: rgba(255, 255, 255, 0); border: none; box-shadow: none; }
+.accordion-item {margin: 25px 0px;background: var(--white);box-shadow: rgb(199 199 199 / 40%) 0px 4px 3px 1px;border-radius: 10px;padding: 15px 2px 15px 7.5rem;position: relative;}
+.diagram_wrap {width: 88%;margin: 0px auto;}
+button.accordion-button i { font-size: 14px; margin-top: -6px; text-shadow: rgb(135, 135, 135) 0px 1px; }
+.accordion-item:first-of-type  {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-
-p.diagram_subtile:before {
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 2px;
-    background: var(--yellow);
-    top: 7px;
-    left: 0;
-}
-h2.diagram_title {
-    letter-spacing: 1px;
-    color: var(--dark-blue);
-    margin-bottom: 17px;
-}
-.accordion-button::after{
-    display: none;
-}
-div#accordionPanelsStayOpenExample {
-    margin-top: 5rem;
-}
-
-button.accordion-button {
-    font-weight: 500;
-    font-size: 18px;
-    color: var(--dark-blue);
-    text-transform: capitalize;
-}
-
-
-.accordion-button:not(.collapsed) {
-    color: var(--dark-blue);
-}
-
-
-
-button.accordion-button i {
-    position: absolute;
-    right: 25px;
-}
-
-button.accordion-button {
-    position: relative;
+.accordion-item:last-of-type {
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
 }
 
 
 
 
+.signup_digram_image_wrapper img {
+    width: 62%;
+}
+
+.digrams {
+    margin-bottom: 11rem;
+}
+
+.accordian_item_wrapper {
+    box-shadow: 1px 1px 46px 0px #ebebeb9c;
+}
+
+.row.bank_diagram.digrams {
+    display: flex;
+    flex-direction: row-reverse;
+ 
+}
+
+.bank_digram_image_wrapper img {
+    width: 74%;
+}
+
+.signup_digram_image_wrapper,
+.bank_digram_image_wrapper,
+.check_digram_image_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6.check_digram_image_wrapper img {
+    width: 78%;
+}
 
 
 
@@ -157,27 +155,6 @@ button.accordion-button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer  */
 #footer { background: var(--dark-blue); padding-top: 8rem; }
 #footer h3 { color: var(--white); padding-bottom: 2rem; }
 #footer span, #footer p, #footer a { color: rgb(105, 121, 141); }
@@ -192,3 +169,5 @@ button.accordion-button {
 .useful_links ul li a { display: inline-block; padding: 1rem 0px !important; }
 .copywrite { background: rgb(14, 31, 51); padding: 2rem 0px; text-align: center; }
 .copywite_text { color: white; text-align: center; letter-spacing: 1px; text-transform: capitalize; }
+h3.diagram_number {width: 45px;height: 45px;display: grid;place-items: center;position: absolute;top: 14px;left: 21px;background: var(--yellow);border-radius: 50%;font-size: 16px;font-weight: 700;border: 5px solid rgb(244, 242, 242);outline: rgb(211, 211, 211) solid 1px;}
+h3.diagram_number.white { background: var(--white); }
