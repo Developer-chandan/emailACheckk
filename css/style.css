@@ -115,6 +115,93 @@ section#instruction_video .section-title h1 { color: white; }
 section#instruction_video .section-title p { color: var(--gray); margin-bottom: 4rem; }
 .buttons.video_section_button a:hover { border: 2px solid var(--yellow); color: var(--yellow); }
 .btn-primary:focus, .btn-primary:active { color: var(--yellow); background-color: var(--black); border-color: var(--yellow); }
+/* app features and plans  */
+#apps_features{
+    margin: 5rem 0;
+}
+
+.app_feature.section-title h1:after {
+    width: 106px;
+}
+.col-md-8.table_main_wrapper {
+    width: 72%;
+    margin: 0 auto;
+}
+.table>:not(caption)>*>* {
+  
+    border-bottom-width: 0;
+    
+}
+
+
+tbody.table_body_wrapper tr th,
+tbody.table_body_wrapper tr td {
+    padding: 14px 4px;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    text-transform: uppercase;
+}
+tbody.table_body_wrapper tr th,
+tbody.table_body_wrapper tr td.table_feature_tittle{
+    background-color: rgb(244, 247, 255);
+    text-transform: uppercase;
+} 
+
+.table_head:nth-child(1),
+.table_head:last-child{
+    background: rgb(237, 241, 253) !important;
+    text-align: center;
+}
+td.feature_yes,
+td.feature_no{
+    text-align: center;
+    font-size: 21px;
+}
+
+td.feature_yes {
+    background: rgb(212 243 238) !important;
+}
+
+td.feature_yes i {
+    color: #56d056;
+    background: white;
+    border-radius: 100%;
+}
+td.feature_no {
+    background: rgb(237, 201, 207) !important;
+}
+
+td.feature_no i {
+    color: rgb(235, 87, 87);
+    background: white;
+    border-radius: 100%;
+}
+
+h3.feature_number {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--dark-blue);
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+tbody.table_body_wrapper tr th{
+    padding-left: 4rem;
+}
+
+.section-title.app_feature {
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+/* partners  */
 h3.partners-title { text-align: center; margin-bottom: 8rem; font-size: 2.2rem; }
 section#partners .row { display: flex; justify-content: center; }
 h3.partners-title span { color: var(--yellow); text-transform: capitalize; font-size: 2rem; }
