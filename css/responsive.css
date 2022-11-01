@@ -1,0 +1,553 @@
+@media(max-width:992px){
+    .container,
+    .container-lg{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    ul.navbar-nav {
+        width: 59%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .nav_login_btn {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav_login_btn a {
+        margin-bottom: 1rem;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+    }
+    .table_main_wrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .logoIn_form_wrapper {
+        width: 70%;
+        margin: 0px auto;
+        box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
+        padding: 3rem;
+        background: var(--white);
+        border-radius: 10px;
+    }
+}
+
+
+
+
+@media(max-width:768px){
+
+    a, p, span, strong, article { font-size: 1.6rem; color: rgb(79, 77, 77); }
+h1 { font-size: 4rem; font-weight: 500; }
+h2 { font-size: 2.8rem; font-weight: 600; }
+h3 { font-size: 1.8rem; font-weight: 500; }
+
+
+
+    h1.hero_title {
+       
+padding-right: 0rem;
+       
+margin-bottom: 3rem;
+       
+line-height: 47px;
+    }
+    h1.hero_title span {
+        font-size: 4rem;
+        
+    }
+    .hero_desc p {
+        padding-right: 8rem;
+       
+    }
+    .hero_desc .buttons {
+        width: 80%;
+      
+    }
+    .hero_desc {
+        padding-top: 2rem;
+    }
+    .hero_image img {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .active_user {
+       
+padding: 2rem 1.5rem 3rem 1.5rem;
+       
+bottom: -11px;
+       
+left: 88px;
+    }
+    .active_user_images img:last-child{
+        display: none;
+    }
+
+
+
+    .section-title {
+        width: 96%;
+        margin: 0px auto 2rem;
+     
+    }
+    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs {
+      
+        width: 100%;
+    
+        flex-wrap: wrap;
+    }
+    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li{
+        margin-bottom: 1.5rem;
+    }
+    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
+        padding: 1rem 2.5rem;
+        
+        box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+        
+
+        font-size: 14px;
+
+      
+    }
+    .section-title.app_feature {
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    .table_main_wrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+
+
+    section#partners {
+        padding: 5rem 0px;
+       
+    }
+    h3.partners-title {
+        
+        margin-bottom: 4rem;
+      
+    }
+    section#how_it_works {
+        margin-top: 1rem;
+    }
+
+    .diagram_wrap {
+        width: 100%;
+      
+    }
+    .signup_digram_image_wrapper img {
+        width: 73%;
+        margin-top: 0rem;
+    }
+    .check-diagram {
+        padding: 4rem 0px;
+        background: var(--white)
+    }
+
+
+    .bank-diagram {
+       
+        padding-bottom: 0;
+    }
+
+    section#heroSection {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .row.hero_wrapper.bottom_hero .hero_title span,
+    .row.hero_wrapper.bottom_hero .hero_title {
+        font-size: 4rem;
+    }
+   .bottom_hero .buttons {
+        width: 80%;
+        justify-content: center;
+    }
+    .row.hero_wrapper.bottom_hero .hero_desc {
+        margin-bottom: 4rem;
+    }
+
+    .active_user_content h1 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .hero_image_bottom .active_user {
+        bottom: -26px;
+        left: 38px;
+    }
+    .bottom_hero .active_user {
+        padding: 2rem 1.5rem 2rem 1.5rem;
+      
+    }
+  
+
+
+    .user_box {
+        width: 282px;
+        padding: 2.5rem 4rem;
+        background: rgb(249, 249, 249);
+        box-shadow: rgb(131 131 131 / 88%) 0px 6px 5px;
+        border-radius: 20px;
+        margin-bottom: 3rem;
+    }
+    #users {
+        background: url(/img/world-imge.png) center center / auto no-repeat;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+    .user_box:first-child{
+        margin-top: -5rem;
+    }
+
+    section#app_reviews {
+        margin-bottom: 7rem;
+        margin-top: 15rem;
+    }
+
+    .review_overview {
+        display: flex;
+        align-items: center;
+        background: #f4f4f2;
+        padding: 3rem;
+        width: 63%;
+        margin-bottom: 2rem;
+    }
+    .col-md-3.review-box {
+        margin-bottom: 2rem;
+    }
+
+    .get_our_app ul li a img {
+        width: 29%;
+    }
+
+    .row.instruction_video_side {
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    .logoIn_form_wrapper {
+        width: 95%;
+        margin: 0px auto;
+        box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
+        padding: 3rem;
+        background: var(--white);
+        border-radius: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:575px){
+    .container,
+    .container-lg{
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    h1 { font-size: 3rem; font-weight: 500; }
+    h2 { font-size: 2rem; font-weight: 600; }
+    h3 { font-size: 1.6rem; font-weight: 500; }
+    
+    h1.hero_title span {
+        font-size: 3rem;
+    }
+    h1.hero_title {
+        padding-right: 0rem;
+        margin-bottom: 3rem;
+        line-height: 38px;
+        margin-top: 7rem;
+    }
+    .hero_desc p {
+        padding-right: 0rem;
+    }
+    .hero_desc .buttons {
+        width: 100%;
+
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .row.hero_wrapper .buttons a {
+        margin-bottom: 2rem;
+    }
+    .hero_image img {
+        width: 100%;
+      
+    }
+    .active_user {
+        padding: 2rem 2.5rem 2rem 1.5rem;
+        bottom: -56px;
+        left: 19px;
+    }
+    .active_user_images img {
+        width: 36px;
+        height: 36px;
+        border: 3px solid rgb(221, 221, 221);
+        border-radius: 50%;
+        margin-right: -5px;
+        box-shadow: rgb(156 156 156) 1px 4px 3px 0px;
+    }
+    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
+        padding: 1rem 1.1rem;
+        box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+        font-size: 13px;
+    }
+    .benefit_to_payee > div, .benefit_to_payor > div {
+        margin-bottom: 8rem;
+    }
+    .video_link iframe {
+        width: 100%;
+        height: 227px;
+    }
+    #instruction_video {
+         padding: 7rem 0px;
+        padding-bottom: 2rem;
+    }
+    #apps_features {
+        
+        padding-top: 1rem;
+      
+    }
+    .partners_logo img {
+        width: 46%;
+    }
+    .partners_logo {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 3rem;
+        flex-wrap: wrap;
+    
+}
+
+p.diagram_subtile {
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    position: relative;
+    padding-left: 61px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+h3.diagram_number {
+    width: 33px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    background: var(--yellow);
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    border: 4px solid rgb(244, 242, 242);
+    outline: rgb(211, 211, 211) solid 1px;
+}
+.accordion-item {
+    margin: 25px 0px;
+    background: var(--white);
+    box-shadow: rgb(199 199 199 / 40%) 0px 4px 3px 1px;
+    border-radius: 10px;
+    padding: 7px 2px 14px 4.5rem;
+    position: relative;
+}
+button.accordion-button i {
+    position: absolute;
+    right: 14px;
+    top: 17px;
+}
+
+button.accordion-button {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--dark-blue);
+    text-transform: capitalize;
+    background: none;
+}
+
+
+
+h2.diagram_title {
+    letter-spacing: .3px;
+    color: var(--dark-blue);
+    margin-bottom: 17px;
+}
+
+.check_digram_image_wrapper {
+    margin-top: 3rem;
+}
+
+.bank-diagram {
+    padding: 6rem 0px;
+    padding-top: 1rem;
+}
+.row.hero_wrapper.bottom_hero .hero_title span, .row.hero_wrapper.bottom_hero .hero_title {
+    font-size: 3rem;
+}
+
+.bank-diagram {
+  
+    padding-bottom: 0;
+}
+
+
+.bottom_hero h1.hero_title {
+    padding-right: 0rem;
+    margin-bottom: 3rem;
+    line-height: 37px;
+    margin-top: 0rem;
+}
+
+
+.hero_image_bottom .active_user {
+    bottom: -50px;
+    left: 20px;
+}
+
+
+.bottom_hero .active_user {
+    padding: 2rem 2rem 2rem 1.5rem;
+}
+
+.benefits_video {
+    padding: 7rem 0px;
+    padding-bottom: 2rem;
+    margin-top: 6rem;
+}
+
+.row.instruction_video_side {
+    margin-bottom: 10rem;
+}
+
+
+.user_box_wrapper h1 {
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(61, 61, 61);
+}
+
+.review_overview {
+ 
+    width: 100%;
+
+}
+.get_our_app ul li {
+    margin-bottom: 1rem;
+}
+
+.get_our_app ul li a img {
+    width: 70%;
+}
+
+
+.about_hero_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 18rem;
+}
+.diagram_title_wrapper.about_title_weapper {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.complete{
+display: none;
+}
+
+
+.about_hero_image .active_user {
+    padding: 2rem 2.5rem 2rem 1.5rem;
+    bottom: -100px;
+    left: 15px;
+}
+
+section#contact {
+    margin: 10rem 0px;
+}
+
+
+.contact_content {
+    
+    margin-top: 3rem;
+}
+
+
+.contact_content .diagram_title {
+    margin-bottom: 19px;
+}
+
+.contact_content::before{
+    display: none;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding-bottom: 0rem;
+}
+
+
+.logoIn_form_wrapper {
+    width:100%;
+    margin: 0px auto;
+    box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 10px;
+}
+
+
+.login_form {
+    padding: 2rem 0rem;
+}
+ul.backup_btns li a {
+    color: rgb(73, 73, 255);
+    text-transform: none;
+    font-size: 13px;
+}
+
+
+ul.backup_btns li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: .8rem 2.5rem;
+   
+}
+
+}
