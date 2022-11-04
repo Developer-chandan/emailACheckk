@@ -50,6 +50,42 @@
         background: var(--white);
         border-radius: 10px;
     }
+    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs {
+ 
+        width: 100%;
+     
+    }
+    .active_user {
+        
+bottom: 56px;
+        
+left: 92px;
+    }
+    .instruction_video_wrap {
+        
+width: 69%;
+    }
+    .complete {
+        display: none;
+    }
+    .about_hero_image .active_user {
+  
+        display: none;
+    }
+    .about_hero_image {
+        display: flex;
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+    #contact .container .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .map_location {
+     
+        margin-top: 6rem;
+    }
 }
 
 
@@ -254,6 +290,10 @@ left: 88px;
         background: var(--white);
         border-radius: 10px;
     }
+    .about_hero_image {
+        
+        margin-bottom: 13rem;
+    }
 
 
 }
@@ -286,7 +326,7 @@ left: 88px;
         padding-right: 0rem;
         margin-bottom: 3rem;
         line-height: 38px;
-        margin-top: 7rem;
+        margin-top: 0rem;
     }
     .hero_desc p {
         padding-right: 0rem;
@@ -473,10 +513,10 @@ h2.diagram_title {
 
 
 .about_hero_image {
-    display: flex;
-    justify-content: center;
-    margin-top: 8rem;
-    margin-bottom: 18rem;
+  
+margin-top: 8rem;
+  
+margin-bottom: 15rem;
 }
 .diagram_title_wrapper.about_title_weapper {
     padding-right: 1rem;
@@ -558,6 +598,9 @@ ul.backup_btns li {
 
 .col-md-7.hero_desc.top_hero_desc .hero_title {
     margin-top: 0rem;
+}
+.instruction_video_wrap {
+    width: 90%;
 }
 
 }
