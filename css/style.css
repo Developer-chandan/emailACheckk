@@ -270,7 +270,7 @@ form#form .row { margin: 6px 0px; }
 .form-control:focus { box-shadow: none; border-color: rgb(221, 221, 221); }
 section#form { background: rgb(248, 255, 218); padding: 6rem 0px; }
 .select-option { text-transform: capitalize; }
-.textandemail .form-check:first-child { display: flex; justify-content: space-between; width: 22%; text-transform: capitalize; margin-bottom: 1rem; }
+.textandemail .text_andmail_verification_wrapper { display: flex; justify-content: space-between; width: 22%; text-transform: capitalize; margin-bottom: 1rem; }
 .option { border-bottom: 1px solid rgb(221, 221, 221); }
 .form-check-input:focus { box-shadow: none; }
 p.verification_code { margin-bottom: 7px; }
@@ -281,3 +281,6 @@ p.verification_code { margin-bottom: 7px; }
 .instruction_video_wrap { display: flex; margin: 0px auto; width: 50%; }
 .video_link { display: flex; justify-content: center; }
 .about_hero_image .active_user {bottom: -49px;left: 0px;}
+.terms_and_condition_btn{
+    color: rgb(14 91 179);
+}

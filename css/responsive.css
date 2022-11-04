@@ -92,7 +92,30 @@ width: 69%;
     }
     .bank-diagram {padding-bottom: 1rem;
     }
+    .contents_wrapper {
+        width: 95%;
+  
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -304,7 +327,11 @@ left: 88px;
         margin-bottom: 2rem;
         margin-top: 10rem;
     }
-
+    .textandemail .text_andmail_verification_wrapper {
+  
+        width: 36%;
+       
+    }
 
 }
 
@@ -611,6 +638,11 @@ ul.backup_btns li {
 }
 .instruction_video_wrap {
     width: 90%;
+}
+.textandemail .text_andmail_verification_wrapper {
+  
+    width: 80%;
+   
 }
 
 }
