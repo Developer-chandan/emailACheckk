@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | emailAcheck</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+ 
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-lg">
+            <a class="navbar-brand" href="index.html">
+              <h2>LOGO</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 login_nav">
+               
+               
+              
+               
+              </ul>
+              <div class="nav_login_btn">
+             
+                <a href="login.html" class="btn btn-warning">Register <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+  
+ 
+      </header>
+  
+      <section id="form">
+        <div class="container-lg">
+           <div class="contents_wrapper">
+            <div class="row form_header">
+                <div class="col-md-6 name_section">
+                   <h2>Register Now</h2>
+                </div>
+            </div>
+
+          <div class="form_main_wrapper">
+            
+            <form class="row" autocomplete="off" id="form">
+                <div class="row cetagory_select">
+                    <div class="mb-3 select-option">
+                        <p>select account type</p>
+                        <div class="select-box">
+                          <div class="options-container">
+                            <div class="option">
+                              <input
+                                type="radio"
+                                class="radio"
+                                id="southafrica"
+                                name="category"
+                              />
+                              <label for="southafrica">south africa</label>
+                            </div>
+                  
+                            <div class="option">
+                              <input type="radio" class="radio" id="indivual" name="category" />
+                              <label for="unitedstate">individual</label>
+                            </div>
+                  
+                            <div class="option">
+                              <input type="radio" class="radio" id="india" name="category" />
+                              <label for="india">company</label>
+                            </div>
+                  
+                         
+                  
+                          
+                          </div>
+                  
+                          <div class="selected">
+                          <small>--Please select--</small>
+                          </div>
+                        </div>
+                      
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label for="exampleInputfirstname" class="form-label">first name</label>
+                        <input type="text" class="form-control" placeholder="John" id="exampleInputfirstname">
+                      </div>
+                    <div class="mb-3 col-md-6">
+                        <label for="exampleInputlastname" class="form-label">last name</label>
+                        <input type="text" class="form-control" placeholder="Doe" id="exampleInputlastname">
+                      </div> 
+                </div>
+              
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label for="exampleInputnumber" class="form-label">mobile number</label>
+                        <input type="number" class="form-control" placeholder="+16101111111" id="exampleInputnumber">
+                      </div> 
+                    <div class="mb-3 col-md-6">
+                        <label for="exampleInputemail" class="form-label">email</label>
+                        <input type="email" class="form-control" id="exampleInputemail">
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-12">
+                        <label class="-label" for="exampleaddress">Address</label>
+                      <input type="text" class="form-control" id="exampleaddress">
+                    </div>   
+                </div>    
+                  <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label class="-label" for="examplePassword">Password</label>
+                        <input type="password" class="form-control" id="examplePassword">
+                    </div>       
+                    <div class="mb-3 col-md-6">
+                        <label class="-label" for="examplePasswordConfirm">Confirm Password</label>
+                        <input type="password" class="form-control" id="examplePasswordConfirm">
+                    </div>   
+                  </div>    
+
+
+          
+               <div class="row">
+                <div class="mb-3 col-12">
+                    <label class="-label" for="exampleaAnswer">security answer</label>
+                  <input type="text" class="form-control" id="exampleaAnswer">
+                </div>  
+               </div>
+            <div class="verification_code_wrap">
+                 <p class="verification_code">Please choose the option for getting the verification code by </p>
+                 <div class="textandemail">
+
+                  <div class="form-check">
+  
+                   
+                     <div>
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                      Text
+                      </label>
+                     </div>
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                     email
+                      </label>
+                    </div>
+                </div>
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                     
+                          Agree with our <a href="termscondition.html">terms and Condition</a>
+                      </label>
+                    </div>     
+                  </div>
+
+
+                
+            </div>
+            <div class="row register_page_button">
+                    
+              <div class="buttons">
+                <a href="#" class="btn btn-dark">Submit <i class="fa-solid fa-circle-chevron-right"></i></a>
+
+            </div>
+    
+          </div>
+             </form>
+          </div>
+           </div>
+                
+                
+           
+           
+        </div>
+    </section>
+
+  
+
+    <footer id="logIn_footer">
+      <div class="login_register_footer_wrapper">
+          <p class="copywite_text">&copy;2022 all copywirte reserved by emailAcheck</p>
+        
+        <div class="terms_condition_footer">
+          <a href="termscondition.html">Terms and Condition</a>
+        </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/445c1c83cf.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
