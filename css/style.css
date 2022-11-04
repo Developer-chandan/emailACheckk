@@ -245,7 +245,7 @@ section#terms_condition { margin-top: 14rem; margin-bottom: 10rem; }
 section#terms_condition .diagram_wrap { width: 100%; margin-bottom: 3rem; }
 section#terms_condition .diagram_number { background: rgb(255, 229, 150); }
 #terms_condition .accordion-body article { font-size: 14px; line-height: 23px; }
-.col-md-8.table_main_wrapper { overflow-x: auto; }
+.table_main_wrapper { overflow-x: auto; }
 table.table { height: fit-content; width: 100%; min-width: 800px; table-layout: fixed; margin-bottom: 48px; }
 .hero_desc .diagram_subtile { padding-right: 0px; margin-bottom: 0px !important; }
 select.form-select .option:hover { background: var(--dark-gray); }

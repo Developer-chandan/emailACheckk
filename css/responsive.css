@@ -86,6 +86,12 @@ width: 69%;
      
         margin-top: 6rem;
     }
+    section#heroSection.bottom_hero_section {
+        margin-bottom: 4rem;
+        margin-top: 0rem;
+    }
+    .bank-diagram {padding-bottom: 1rem;
+    }
 }
 
 
@@ -210,7 +216,7 @@ left: 88px;
 
     section#heroSection {
         margin-bottom: 2rem;
-        margin-top: 2rem;
+        margin-top: 9rem;
     }
     .row.hero_wrapper.bottom_hero .hero_title span,
     .row.hero_wrapper.bottom_hero .hero_title {
@@ -267,10 +273,10 @@ left: 88px;
         align-items: center;
         background: #f4f4f2;
         padding: 3rem;
-        width: 63%;
+        width: 100%;
         margin-bottom: 2rem;
     }
-    .col-md-3.review-box {
+    .review-box {
         margin-bottom: 2rem;
     }
 
@@ -293,6 +299,10 @@ left: 88px;
     .about_hero_image {
         
         margin-bottom: 13rem;
+    }
+    section#heroSection.about_hero_section {
+        margin-bottom: 2rem;
+        margin-top: 10rem;
     }
 
 
@@ -590,7 +600,7 @@ ul.backup_btns li {
    
 }
 .hero_desc {
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 .row.hero_wrapper.bottom_hero .hero_desc {
     margin-top: 0;
