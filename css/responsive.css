@@ -96,6 +96,14 @@ width: 69%;
         width: 95%;
   
     }
+    .partners_register{
+        display: block;
+        text-align: center;
+    }
+    .container.partners_register {
+        margin-top: 4rem;
+    }
+    
 }
 
 
@@ -186,13 +194,8 @@ left: 88px;
     }
     .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
         padding: 1rem 2.5rem;
-        
         box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
-        
-
         font-size: 14px;
-
-      
     }
     .section-title.app_feature {
         margin-bottom: 5rem;
@@ -332,6 +335,26 @@ left: 88px;
         width: 36%;
        
     }
+    h1.benefits_number{
+        outline: none;
+    }
+    #how_it_works .section-title p{
+        display: none;
+    }
+    #how_it_works .section-title h1{
+        text-align: start;
+        font-size: 4rem;
+    }
+    .section-title h1::after {
+        
+      display: none;
+    }
+   
+    section#how_it_works .section-title {
+      
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
 
 }
 
@@ -396,7 +419,7 @@ left: 88px;
     }
     .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
         padding: 1rem 1.1rem;
-        box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+        box-shadow: 0px 0px 0px 1px var(--gray);
         font-size: 13px;
     }
     .benefit_to_payee > div, .benefit_to_payor > div {
@@ -644,8 +667,32 @@ ul.backup_btns li {
     width: 80%;
    
 }
+.benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs .tab.is-active a[data-switcher]{
+    box-shadow: 0px 0px 0px 1px rgb(255, 252, 174);
+}
+a.navbar-brand img {
+    width: 67px;
+}
+
+.benefits_cards {
+ 
+    box-shadow: rgb(221 221 221) 0px 0px 2px 1px;
+    
+}
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:557px)  and (min-width:430px){
@@ -655,5 +702,6 @@ ul.backup_btns li {
         justify-content: space-between;
         flex-wrap: wrap;
     }
+   
 
 }

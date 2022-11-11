@@ -25,7 +25,7 @@ li { list-style: none; }
 .btn-warning:hover { border: 2px solid var(--yellow); box-shadow: 3px 5px 13px -4px var(--gray); }
 .btn-dark:hover { background: var(--yellow); color: var(--black); border: 2px solid var(--yellow); box-shadow: 3px 5px 13px -4px var(--gray); }
 ul.navbar-nav { width: 52%; margin: 0px auto; display: flex; justify-content: space-around; }
-nav.navbar { padding: 19px 0px; background: white; z-index: 999; }
+nav.navbar {padding: 5px 0px;background: white;z-index: 999;}
 .nav_login_btn .btn-warning:hover { border: none; box-shadow: none; }
 a.check_write_btn { color: var(--black); display: inline-block; margin: 0px 3rem; }
 .nav_login_btn .btn-warning:hover { border: none; box-shadow: rgb(200, 200, 200) 0px 4px 1px 0px; }
@@ -75,7 +75,7 @@ li.tab.is-active { background: rgba(255, 249, 112, 0.57); border-radius: 10px; }
 .benefits_cards h2 { font-size: 2rem; margin-bottom: 14px; color: var(--dark-blue); top: 80px; }
 .benefits_cards p { font-size: 14px; }
 .pages { margin-top: 9rem; }
-h1.benefits_number { width: 100px; height: 100px; background: white; border: 8px solid rgb(243, 243, 243); border-radius: 50%; display: grid; place-items: center; font-size: 3.5rem; position: absolute; top: -57px; color: var(--yellow); outline: rgb(227, 227, 227) solid 2px; left: 50%; transform: translateX(-50%); }
+h1.benefits_number {width: 100px;height: 100px;background: white;border: 8px solid rgb(243, 243, 243);border-radius: 50%;display: grid;place-items: center;font-size: 3.5rem;position: absolute;top: -57px;color: var(--yellow);outline: 2px solid rgb(227, 227, 227);left: 50%;transform: translateX(-50%);}
 .benefit_to_payee > div, .benefit_to_payor > div { margin-bottom: 10rem; }
 .benefit_to_payee, .benefit_to_payor { justify-content: center; }
 ul.bank_benefit_data li i { color: var(--yellow); margin-right: 1rem; font-size: 1.8rem; background: black; border-radius: 85%; box-shadow: rgb(221, 221, 221) -1px 4px 10px 1px; }
@@ -283,4 +283,10 @@ p.verification_code { margin-bottom: 7px; }
 .about_hero_image .active_user {bottom: -49px;left: 0px;}
 .terms_and_condition_btn{
     color: rgb(14 91 179);
+}
+a.navbar-brand img {
+    width: 111px;
+}
+.partners_register{
+    display: none;
 }
