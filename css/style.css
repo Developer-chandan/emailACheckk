@@ -25,7 +25,7 @@ li { list-style: none; }
 .btn-warning:hover { border: 2px solid var(--yellow); box-shadow: 3px 5px 13px -4px var(--gray); }
 .btn-dark:hover { background: var(--yellow); color: var(--black); border: 2px solid var(--yellow); box-shadow: 3px 5px 13px -4px var(--gray); }
 ul.navbar-nav { width: 52%; margin: 0px auto; display: flex; justify-content: space-around; }
-nav.navbar {padding: 5px 0px;background: white;z-index: 999;}
+nav.navbar { padding: 5px 0px; background: white; z-index: 999; }
 .nav_login_btn .btn-warning:hover { border: none; box-shadow: none; }
 a.check_write_btn { color: var(--black); display: inline-block; margin: 0px 3rem; }
 .nav_login_btn .btn-warning:hover { border: none; box-shadow: rgb(200, 200, 200) 0px 4px 1px 0px; }
@@ -40,7 +40,7 @@ h1.hero_title span { font-size: 5rem; color: var(--yellow); }
 .hero_desc { padding-top: 6rem; }
 .hero_image { position: relative; }
 .hero_desc .buttons { width: 63%; display: flex; justify-content: space-between; }
-.active_user { position: absolute; background: white; padding: 2rem 3rem 2rem 2rem; box-shadow: rgba(131, 131, 131, 0.88) 0px 4px 5px; border-radius: 13px; bottom: -7px; left: 0px; }
+.active_user { position: absolute; background: white; padding: 2rem 3rem 2rem 2rem; box-shadow: rgba(131, 131, 131, 0.88) 0px 4px 5px; border-radius: 13px; bottom: 11px; left: -23px; }
 .active_user_images { display: flex; }
 .active_user_images img { width: 40px; height: 40px; border: 3px solid rgb(221, 221, 221); border-radius: 50%; margin-right: -10px; box-shadow: rgb(156, 156, 156) 1px 4px 3px 0px; }
 .active_user_content h1 { font-size: 35px; line-height: 1; }
@@ -63,7 +63,7 @@ section#benefits { padding-top: 9rem; }
 .pages .page.is-active { display: flex; }
 .col-lg-6.bank_benefit { display: flex; justify-content: center; }
 .col-lg-6.bank_benefit img { width: 70%; }
-.row.benefit_to_bank.page.is-active { margin-bottom: 10rem; }
+.row.benefit_to_bank.page.is-active {margin-bottom: 10rem;margin-top: -34px;}
 .section_title_wrap p { color: var(--dark-gray); }
 .benefits_cards { background: var(--white); display: flex; flex-direction: column; align-items: center; border-radius: 10px; text-align: center; padding: 7.3rem 2rem 4rem; cursor: pointer; position: relative; z-index: 2; width: 100%; height: 100%; box-shadow: rgb(221, 221, 221) 1px 5px 23px 1px; border: 1px solid rgb(221, 221, 221); }
 #benefites { margin-bottom: 2rem; }
@@ -75,12 +75,12 @@ li.tab.is-active { background: rgba(255, 249, 112, 0.57); border-radius: 10px; }
 .benefits_cards h2 { font-size: 2rem; margin-bottom: 14px; color: var(--dark-blue); top: 80px; }
 .benefits_cards p { font-size: 14px; }
 .pages { margin-top: 9rem; }
-h1.benefits_number {width: 100px;height: 100px;background: white;border: 8px solid rgb(243, 243, 243);border-radius: 50%;display: grid;place-items: center;font-size: 3.5rem;position: absolute;top: -57px;color: var(--yellow);outline: 2px solid rgb(227, 227, 227);left: 50%;transform: translateX(-50%);}
+h1.benefits_number { width: 100px; height: 100px; background: white; border: 8px solid rgb(243, 243, 243); border-radius: 50%; display: grid; place-items: center; font-size: 3.5rem; position: absolute; top: -57px; color: var(--yellow); outline: rgb(227, 227, 227) solid 2px; left: 50%; transform: translateX(-50%); }
 .benefit_to_payee > div, .benefit_to_payor > div { margin-bottom: 10rem; }
 .benefit_to_payee, .benefit_to_payor { justify-content: center; }
 ul.bank_benefit_data li i { color: var(--yellow); margin-right: 1rem; font-size: 1.8rem; background: black; border-radius: 85%; box-shadow: rgb(221, 221, 221) -1px 4px 10px 1px; }
 ul.bank_benefit_data li { display: flex; align-items: center; margin: 10px 0px; }
-ul.bank_benefit_data h3 { padding-bottom: 2rem; }
+ul.bank_benefit_data h3 {padding-bottom: 2rem;font-size: 2.2rem;}
 .row.instruction_video_side { justify-content: center; }
 .row.instruction_video_side > div { flex-direction: column; }
 .video_section_button { text-align: center; }
@@ -172,11 +172,11 @@ button.accordion-button i { font-size: 14px; margin-top: -6px; text-shadow: rgb(
 section#app_reviews { margin-bottom: 7rem; }
 .row.app_review_download .buttons { width: 100%; justify-content: center; display: flex; }
 .bottom_hero .buttons { width: 76%; }
-.hero_image_bottom .active_user { bottom: 23px; left: 42px; }
+.hero_image_bottom .active_user {bottom: -14px;left: 13px;}
 .benefits_video_wrap .section-title p { margin-bottom: 4rem; color: var(--black)  !important; }
 .benefits_video_wrap .section-title h1 { color: var(--dark-blue)  !important; }
 .benefits_video { background: white !important; }
-section#heroSection {margin-bottom: 9rem;margin-top: 13rem;}
+section#heroSection { margin-bottom: 9rem; margin-top: 11rem; }
 #footer { background: var(--dark-blue); padding-top: 8rem; }
 #footer h3 { color: var(--white); padding-bottom: 2rem; }
 #footer span, #footer p, #footer a { color: rgb(105, 121, 141); }
@@ -225,7 +225,7 @@ ul.offers_for_customer li span { text-transform: capitalize; }
 .row.hero_wrapper.bottom_hero .hero_title span { font-size: 4.5rem; }
 .diagram_title_wrapper.about_title_weapper { padding-right: 4rem; padding-left: 3rem; }
 .diagram_title_wrapper.about_title_weapper article { margin-bottom: 3rem; }
-.about_hero_image img {width: 71%;}
+.about_hero_image img { width: 71%; }
 .about_hero_image { display: flex; justify-content: center; }
 .row.hero_wrapper.about_wrapper .hero_desc { padding-top: 26px; }
 .diagram_title_wrapper.about_title_weapper p { margin-bottom: 2px; }
@@ -243,8 +243,8 @@ section#contact { margin: 16rem 0px; }
 .contact_content .diagram_title { margin-bottom: 47px; }
 section#terms_condition { margin-top: 14rem; margin-bottom: 10rem; }
 section#terms_condition .diagram_wrap { width: 100%; margin-bottom: 3rem; }
-section#terms_condition .diagram_number { background: rgb(255, 229, 150); }
-#terms_condition .accordion-body article { font-size: 14px; line-height: 23px; }
+section#terms_condition .diagram_number { background: var(--yellow); }
+#terms_condition .accordion-body article { font-size: 16px; line-height: 23px; }
 .table_main_wrapper { overflow-x: auto; }
 table.table { height: fit-content; width: 100%; min-width: 800px; table-layout: fixed; margin-bottom: 48px; }
 .hero_desc .diagram_subtile { padding-right: 0px; margin-bottom: 0px !important; }
@@ -280,13 +280,13 @@ p.verification_code { margin-bottom: 7px; }
 .terms_condition_footer a { color: var(--white); }
 .instruction_video_wrap { display: flex; margin: 0px auto; width: 50%; }
 .video_link { display: flex; justify-content: center; }
-.about_hero_image .active_user {bottom: -49px;left: 0px;}
-.terms_and_condition_btn{
-    color: rgb(14 91 179);
-}
-a.navbar-brand img {
-    width: 111px;
-}
-.partners_register{
-    display: none;
+.about_hero_image .active_user { bottom: -49px; left: 0px; }
+.terms_and_condition_btn { color: rgb(14, 91, 179); }
+a.navbar-brand img {width: 93px;}
+.partners_register { display: none; }
+.video_link iframe { box-shadow: rgb(67, 44, 4) 1px 1px 31px 4px; }
+.hero_image img { width: 90%; }
+
+.benefits_video_wrapper_side .video_link iframe{
+    box-shadow: none;
 }
