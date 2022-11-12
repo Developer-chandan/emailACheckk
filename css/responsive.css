@@ -686,7 +686,10 @@ a.navbar-brand img {
 .pages {
     margin-top: 6rem;
 }
-
+section#terms_condition .row {
+    --bs-gutter-x: 0;
+   
+}
 
 }
 

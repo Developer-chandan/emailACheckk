@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | emailAcheck</title>
+    <title>Register | emailAcheck</title>
+    <link rel="shortcut icon" href="img/favicon1.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -130,6 +131,21 @@
           
                <div class="row">
                 <div class="mb-3 col-12">
+                  <label for="pet-select">Select Security question</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>--Please choose an option--</option>
+                    <option value="1">What is your pet name?</option>
+                    <option value="2">What is your childhood hero?</option>
+                    <option value="3">What is your father middle name?</option>
+                    <option value="4">What was your first car or bike?</option>
+                    <option value="5">What is your mother maiden name?</option>
+                    <option value="6">Where did you first meet your spouse?</option>
+                  </select>
+
+                </div>  
+               </div>
+               <div class="row">
+                <div class="mb-3 col-12">
                     <label class="-label" for="exampleaAnswer">security answer</label>
                   <input type="text" class="form-control" id="exampleaAnswer">
                 </div>  
@@ -189,7 +205,7 @@
 
     <footer id="logIn_footer">
       <div class="login_register_footer_wrapper">
-          <p class="copywite_text">&copy;2022 all copywirte reserved by emailAcheck</p>
+          <p class="copywite_text">&copy;2022 all copywirte reserved by eMailACheck</p>
         
         <div class="terms_condition_footer">
           <a href="termscondition.html">Terms and Condition</a>
