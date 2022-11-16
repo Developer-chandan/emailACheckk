@@ -15,6 +15,8 @@
     --yellow: #F4B600;
     --dark-blue: #172b43;
     --dark-gray: #6a6a6a;
+    --red: rgb(185, 30, 36);
+    --blue: #0E6885;
 }
 
 html {
@@ -48,7 +50,7 @@ strong,
 article,
 label {
     font-size: 1.6rem;
-    color: rgb(79, 77, 77);
+    color: rgb(58, 57, 57);
 }
 
 h1 {
@@ -103,28 +105,36 @@ li {
     --moz-transition: all 0.3s ease-in-out;
     --o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out 0s;
-    box-shadow: rgb(58, 58, 58) 0px 3px 1px 0px;
+    box-shadow: none;
 }
 
 .btn-primary {
-    background: var(--yellow);
-    color: var(--black);
-    border: 2px solid var(--yellow);
+    background: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--blue);
     font-size: 1.5rem;
 }
 
 .btn-warning {
     font-size: 1.5rem;
+    background-image: ;
+    background-position-x: ;
+    background-position-y: ;
+    background-size: ;
+    background-attachment: ;
+    background-origin: ;
+    background-clip: ;
+    background-color: ;
     background-repeat: repeat-x;
     border: 2px solid var(--orange);
-    color: var(--black) !important;
+    color: var(--white) !important;
 }
 
 .btn-dark {
-    background: var(--black);
-    color: var(--yellow);
-    border: 2px solid var(--black);
-    box-shadow: 0px 3px 0px 0px var(--yellow);
+    background: var(--white);
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    box-shadow: none;
 }
 
 .btn-primary-outline {
@@ -140,9 +150,9 @@ li {
 }
 
 .btn-primary:hover {
-    background: rgba(10, 8, 8, 0);
-    color: var(--yellow);
-    border: 2px solid var(--yellow);
+    background: var(--black);
+    color: var(--white);
+    border: 2px solid var(--blue);
 }
 
 .btn-warning:hover {
@@ -151,10 +161,20 @@ li {
 }
 
 .btn-dark:hover {
-    background: var(--yellow);
-    color: var(--black);
-    border: 2px solid var(--yellow);
-    box-shadow: 3px 5px 13px -4px var(--gray);
+    background: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--blue);
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-warning,
+.btn-check:checked+.btn-warning,
+.btn-warning.active,
+.btn-warning:active,
+.show>.btn-warning.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
 }
 
 ul.navbar-nav {
@@ -165,7 +185,7 @@ ul.navbar-nav {
 }
 
 nav.navbar {
-    padding: 5px 0px;
+    padding: 10px 0px;
     background: white;
     z-index: 999;
 }
@@ -176,22 +196,19 @@ nav.navbar {
 }
 
 a.check_write_btn {
-    color: var(--black);
+    color: var(--blue);
     display: inline-block;
     margin: 0px 3rem;
 }
 
 .nav_login_btn .btn-warning:hover {
     border: none;
-    box-shadow: rgb(200, 200, 200) 0px 4px 1px 0px;
-}
-
-.btn:hover {
-    box-shadow: rgb(200, 200, 200) 0px 4px 1px 0px;
+    box-shadow: none;
+    background-color: var(--black);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark-gray);
+    color: var(--blue);
 }
 
 .nav_login_btn a i {
@@ -212,7 +229,8 @@ h1.hero_title {
 
 h1.hero_title span {
     font-size: 5rem;
-    color: var(--yellow);
+    color: var(--black);
+    font-weight: 600;
 }
 
 .hero_wrapper {
@@ -247,7 +265,7 @@ h1.hero_title span {
     box-shadow: rgba(131, 131, 131, 0.88) 0px 4px 5px;
     border-radius: 13px;
     bottom: 11px;
-    left: -23px;
+    left: 0px;
 }
 
 .active_user_images {
@@ -273,7 +291,10 @@ h1.hero_title span {
     letter-spacing: 1px;
     font-size: 17px;
 }
-
+.nav_login_btn {
+    display: flex;
+    align-items: center;
+}
 .about_wrapper .buttons {
     width: 79%;
     display: flex;
@@ -355,7 +376,7 @@ section#benefits {
 }
 
 .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs .tab a[data-switcher]:hover {
-    background: rgb(255, 252, 174);
+    background: rgb(228 248 255);
 }
 
 .row.benefits_data_switch_tab {
@@ -366,7 +387,7 @@ section#benefits {
     letter-spacing: 0.08em;
     text-transform: capitalize;
     display: block;
-    background: rgb(255, 252, 174);
+    background: rgb(149 228 255 / 25%);
     border: 1px solid rgb(232, 232, 232);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     border-radius: 10px;
@@ -431,7 +452,7 @@ section#benefits {
     content: "";
     width: 66px;
     height: 3px;
-    background: var(--yellow);
+    background: var(--red);
     bottom: -9px;
     left: 50%;
     transform: translateX(-50%);
@@ -448,7 +469,7 @@ section#benefits {
 }
 
 li.tab.is-active {
-    background: rgba(255, 249, 112, 0.57);
+    background: none;
     border-radius: 10px;
 }
 
@@ -478,10 +499,12 @@ h1.benefits_number {
     font-size: 3.5rem;
     position: absolute;
     top: -57px;
-    color: var(--yellow);
-    outline: rgb(227, 227, 227) solid 2px;
+    color: var(--blue);
+    outline:
+    rgb(227, 227, 227) solid 2px;
     left: 50%;
-    transform: translateX(-50%);
+    transform:
+    translateX(-50%);
 }
 
 .benefit_to_payee>div,
@@ -547,15 +570,15 @@ section#instruction_video .section-title p {
 }
 
 .buttons.video_section_button a:hover {
-    border: 2px solid var(--yellow);
-    color: var(--yellow);
+    border: 2px solid var(--white);
+    color: var(--white);
 }
 
 .btn-primary:focus,
 .btn-primary:active {
-    color: var(--yellow);
+    color: var(--white);
     background-color: var(--black);
-    border-color: var(--yellow);
+    border-color: var(--blue);
 }
 
 #apps_features {
@@ -655,14 +678,14 @@ section#partners .row {
 }
 
 h3.partners-title span {
-    color: var(--yellow);
+    color: var(--red);
     text-transform: capitalize;
     font-size: 2rem;
 }
 
 section#partners {
     padding: 10rem 0px;
-    background: rgb(255, 242, 238);
+    background: rgb(127 224 255 / 8%);
 }
 
 .partners_logo {
@@ -688,7 +711,7 @@ p.diagram_subtile {
     font-weight: 600;
     line-height: 19px;
     text-transform: uppercase;
-    color: var(--yellow);
+    color: var(--red);
     position: relative;
     padding-left: 61px;
     padding-bottom: 5px;
@@ -699,7 +722,7 @@ p.diagram_subtile::before {
     content: "";
     width: 50px;
     height: 2px;
-    background: var(--yellow);
+    background: var(--red);
     top: 7px;
     left: 0px;
 }
@@ -847,7 +870,7 @@ button.accordion-button i {
 
 .check-diagram {
     padding: 6rem 0px;
-    background: rgb(255, 252, 221);
+    background: rgb(127 224 255 / 8%);
 }
 
 .row.hero_wrapper.bottom_hero {
@@ -857,6 +880,7 @@ button.accordion-button i {
 .row.hero_wrapper.bottom_hero .hero_title {
     padding-right: 0px;
     font-size: 4.5rem;
+    font-weight: 500;
 }
 
 .bottom_hero .hero_desc p {
@@ -1056,7 +1080,7 @@ section#heroSection {
 }
 
 .footer_logo_desc ul li i {
-    color: var(--yellow);
+    color: var(--red);
 }
 
 .footer_content.footer_contact a {
@@ -1065,7 +1089,7 @@ section#heroSection {
 }
 
 .footer_content ul li a:hover {
-    color: var(--yellow) !important;
+    color: var(--red) !important;
 }
 
 .get_our_app ul li a img {
@@ -1097,7 +1121,7 @@ section#heroSection {
     color: white;
     text-align: center;
     letter-spacing: 1px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 h3.diagram_number {
@@ -1159,14 +1183,14 @@ section#login_page {
     display: block;
     width: 100%;
     padding: 1.3rem;
-    background: rgb(255, 214, 24);
-    color: var(--black);
+    background: var(--blue);
+    color: var(--white);
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     border-width: 2px 2px 8px;
     border-style: solid;
-    border-color: rgb(21, 25, 99) rgb(21, 25, 99) rgb(28, 31, 108);
+    border-color: var(--black);
     border-image: initial;
     font-size: 1.6rem;
     position: relative;
@@ -1202,7 +1226,7 @@ section#login_page {
 .login_form_title strong {
     font-size: 1.8rem;
     letter-spacing: 5px;
-    color: rgb(228, 98, 19);
+    color: var(--red);
     text-transform: uppercase;
 }
 
@@ -1242,6 +1266,7 @@ ul.backup_btns {
     bottom: 23px;
     right: 33%;
     font-size: 1.9rem;
+    color: var(--white);
 }
 
 .alter_signup {
@@ -1339,7 +1364,7 @@ ul.offers_for_customer li span {
 }
 
 .complete h1 i {
-    color: var(--yellow);
+    color: var(--blue);
     padding: 9px;
     font-size: 47px;
 }
@@ -1350,7 +1375,7 @@ ul.offers_for_customer li span {
     margin: 12px auto 0px;
     display: grid;
     place-items: center;
-    border: 8px solid var(--yellow);
+    border: 8px solid var(--blue);
     border-radius: 100%;
 }
 
@@ -1559,6 +1584,7 @@ form#form .row {
     border: 1px solid rgb(233, 233, 233);
     border-radius: 5px;
 }
+
 .form-select:focus,
 .form-control:focus {
     box-shadow: none;
@@ -1635,7 +1661,8 @@ p.verification_code {
 }
 
 a.navbar-brand img {
-    width: 93px;
+    width: 214px;
+    height: 54px;
 }
 
 .partners_register {
@@ -1647,12 +1674,37 @@ a.navbar-brand img {
 }
 
 .hero_image img {
-    width: 90%;
+    width: 100%;
 }
 
 .benefits_video_wrapper_side .video_link iframe {
     box-shadow: none;
 }
-.navbar-toggler i{
+
+.navbar-toggler i {
     font-size: 25px;
+}
+
+img.img-fluid.about_showcase_image {
+    width: 70%;
+}
+
+.top_hero_desc .hero_title {
+    font-weight: 500;
+}
+
+.btn-check:focus+.btn-warning,
+.btn-warning:focus {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
+    box-shadow: none;
+}
+.special_charecter{
+    text-transform: none !important;
+}
+.footer_logo_desc img {
+    width: 103px;
+    margin-bottom: 1rem;
+    height: 67px;
 }
