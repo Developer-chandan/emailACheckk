@@ -31,6 +31,9 @@
     width: 75%;
       
     }
+    .modal-dialog {
+        max-width: 70%;
+    }
     
 }
 
@@ -141,6 +144,12 @@ width: 69%;
     }
     .container.partners_register {
         margin-top: 4rem;
+    }
+    section#form {
+        padding-top: 0;
+    }
+    p.back_to_home {
+        padding: 3rem 0;
     }
     
 }
@@ -418,6 +427,15 @@ left: 88px;
 
     img.img-fluid.about_showcase_image {
         width: 91%;
+    }
+    .modal-dialog {
+        max-width: 70%;
+    }
+    .modal_mobile_apps ul li a img {
+        width: 100%;
+    }
+    .contents_wrapper {
+        width: 98%;
     }
 }
 
@@ -772,6 +790,52 @@ section#terms_condition .diagram_number {
  
     padding-top: 6rem;
 }
+
+.modal-dialog {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.modal_mobile_apps ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.modal_mobile_apps ul li a img {
+    width: 70%;
+}
+.modal_mobile_apps ul li {
+    margin: 0rem;
+    width: 100%;
+}
+.modal_mobile_apps_google_play {
+    width: 70% !important;
+}
+
+.modal-footer .btn {
+    padding: .8rem 3rem;
+}
+
+.modal-footer {
+    flex-wrap: nowrap;
+}
+
+
+.modal.fade.show{
+    padding-right: 0 !important;
+}
+.contents_wrapper {
+    padding: 1.3rem;
+}
+
+
+
+
+.modal-footer a{
+    margin-bottom: 0 !important;
+}
+
+
+
 
 }
 

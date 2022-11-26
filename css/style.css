@@ -1708,3 +1708,46 @@ img.img-fluid.about_showcase_image {
     margin-bottom: 1rem;
     height: 67px;
 }
+
+.modal-dialog {
+    max-width: 46%;
+}
+
+.modal_mobile_apps ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.modal_mobile_apps ul li a img{
+    width: 100%;
+}
+.modal_mobile_apps_google_play{
+    width: 100% !important;
+}
+.modal_mobile_apps ul li {
+    margin: 0rem;
+    width: 33.3%;
+}
+.modal-content{
+ padding: 1rem;
+}
+.modal_mobile_apps ul li a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.back_to_home a i{
+ font-size: 13px;
+}
+
+.back_to_home a{
+    text-decoration: underline;
+   
+}
+.row.hero_wrapper .buttons a{
+    margin-bottom: 0;
+}
