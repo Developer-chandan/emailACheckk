@@ -130,7 +130,7 @@ width: 69%;
     }
     section#heroSection.bottom_hero_section {
         margin-bottom: 4rem;
-        margin-top: 0rem;
+        margin-top: 6rem;
     }
     .bank-diagram {padding-bottom: 1rem;
     }
@@ -151,11 +151,44 @@ width: 69%;
     p.back_to_home {
         padding: 3rem 0;
     }
+    .with_us {
+        margin-top: 6rem;
+    }
+    .signup_digram_image_wrapper, .bank_digram_image_wrapper, .check_digram_image_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup_digram_image_wrapper img {
+        width: 83%;
+        margin-top: 2rem;
+    }
+    .check_digram_image_wrapper img {
+        width: 64%;
+        margin-top: 7rem;
+    }
+    .bank_digram_image_wrapper img {
+        width: 79%;
+        margin-top: 0rem;
+    }
+    section#competitive {
+        margin-top: 3rem;
+    }
+    .hero_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
     
 }
 
+.hero_image_bottom .active_user {
+    bottom: -14px;
+    left: 61px;
+}
 
 
+}
 
 
 
@@ -436,6 +469,11 @@ left: 88px;
     }
     .contents_wrapper {
         width: 98%;
+    }
+    .with_us h1, .without_us h1 {
+    
+        font-size: 3.5rem;
+        
     }
 }
 
@@ -833,6 +871,65 @@ section#terms_condition .diagram_number {
 .modal-footer a{
     margin-bottom: 0 !important;
 }
+
+
+.with_us h1, .without_us h1 {
+    font-size: 2.7rem;
+}
+.without_us img,
+.with_us img {
+    width: 100%;
+}
+
+.signup_digram_image_wrapper img {
+    width: 90%;
+    margin-top: 0rem;
+}
+
+.check_digram_image_wrapper img {
+    width: 83%;
+    margin-top: 1rem;
+}
+.bank_digram_image_wrapper img {
+    width: 84%;
+    margin-top: 0rem;
+}
+
+.competitive_header h1 {
+    font-size: 2.7rem;
+    
+}
+.competitive_header p {
+    font-size: 1.8rem;
+}
+.comp_table_main_wrapper table {
+    width: 858px;
+}
+tr.comp_table_head td {
+
+    padding: 1.4rem 0px;
+  
+}
+tr.comp_table_head td {
+   
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.triangle_shape span {
+  
+    left: 16px;
+  
+}
+td.comp_table_feature_tittle {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+td.comp_feature_yes i, td.comp_feature_no i {
+    font-size: 2.4rem;
+}
+
 
 
 
