@@ -491,7 +491,7 @@ left: 88px;
     .container,
     .container-lg{
         width: 100%;
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 
     h1 {font-size: 2.7rem;font-weight: 500;}
@@ -508,7 +508,7 @@ left: 88px;
         margin-top: 0rem;
     }
     .hero_desc p {
-        padding-right: 0rem;
+        padding-right: 0rem !important;
     }
     .hero_desc .buttons {
         width: 83%;
@@ -575,7 +575,7 @@ p.diagram_subtile {
     position: relative;
     padding-left: 61px;
     padding-bottom: 5px;
-    font-size: 13px;
+    font-size: 13px !important;
 }
 
 
@@ -897,8 +897,7 @@ section#terms_condition .diagram_number {
 }
 
 .competitive_header h1 {
-    font-size: 2.7rem;
-    
+    font-size: 2.5rem;
 }
 .competitive_header p {
     font-size: 1.8rem;
@@ -935,6 +934,29 @@ td.comp_feature_yes i, td.comp_feature_no i {
   
     display: flex;
     flex-wrap: wrap;
+}
+section#you_will_get .container-lg {
+    padding: 0;
+}
+
+section#you_will_get {
+    margin-bottom: 3rem;
+}
+
+section#instruction_video .section-title p {
+    color: var(--gray);
+    margin-bottom: 2rem;
+}
+
+
+.buttons.video_section_button {
+    width: 100%;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.check-diagram {
+    padding-top: 2rem;
 }
 
 
