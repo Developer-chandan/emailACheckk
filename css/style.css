@@ -87,7 +87,7 @@ ul.bank_benefit_data h3 { padding-bottom: 2rem; font-size: 2.2rem; }
 .video_section_button { text-align: center; }
 .buttons.video_section_button { width: 100%; justify-content: center; margin-top: 5rem; }
 #instruction_video { background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.72)) 0% 0% / cover no-repeat fixed, url("/img/bg.png"); padding: 8rem 0px; }
-section#instruction_video .section-title h1 { color: white; }
+section#instruction_video .section-title h1 { color: white; margin-bottom: 6rem; }
 section#instruction_video .section-title p { color: var(--gray); margin-bottom: 4rem; }
 .buttons.video_section_button a:hover { border: 2px solid var(--white); color: var(--white); }
 .btn-primary:focus, .btn-primary:active { color: var(--white); background-color: var(--black); border-color: var(--blue); }
@@ -106,10 +106,10 @@ td.feature_no i { color: rgb(235, 87, 87); background: white; border-radius: 100
 h3.feature_number { width: 32px; height: 32px; display: grid; place-items: center; border: 1px solid var(--dark-blue); border-radius: 50%; font-size: 16px; font-weight: 400; }
 tbody.table_body_wrapper tr th { padding-left: 4rem; }
 .section-title.app_feature { margin-bottom: 5rem; width: 64%; }
-h3.partners-title { text-align: center; margin-bottom: 8rem; font-size: 2.2rem; }
+h3.partners-title {text-align: center;margin-bottom: 7rem;font-size: 2.4rem;}
 section#partners .row { display: flex; justify-content: center; }
 h3.partners-title span { color: var(--red); text-transform: capitalize; font-size: 2rem; }
-section#partners { padding: 10rem 0px; background: rgba(127, 224, 255, 0.08); }
+section#partners {padding: 10rem 0px;background: rgb(127 224 255 / 5%);}
 .partners_logo { display: flex; justify-content: space-between; padding: 0px 3rem; }
 .partners_logo img { width: 20%; }
 section#how_it_works .section-title { margin-bottom: 5rem; margin-top: 5rem; }
@@ -136,14 +136,14 @@ button.accordion-button i { font-size: 14px; margin-top: -6px; text-shadow: rgb(
 .accordion-item:last-of-type { border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
 .accordion-body { padding-right: 3rem; }
 .signup_digram_image_wrapper img { width: 92%; margin-top: 5rem; }
-.digrams { margin-bottom: 4rem; }
+.digrams {margin-bottom: 7rem;}
 .accordian_item_wrapper { box-shadow: rgba(235, 235, 235, 0.61) 1px 1px 46px 0px; }
 .row.bank_diagram.digrams { display: flex; margin-bottom: 0rem; }
 .bank_digram_image_wrapper img { width: 89%; margin-top: 9rem; }
 .signup_digram_image_wrapper, .bank_digram_image_wrapper, .check_digram_image_wrapper { display: flex; justify-content: flex-end; align-items: center; }
 .check_digram_image_wrapper img { width: 80%; }
 .row.check_diagram.digrams { margin-bottom: 0rem; padding-top: 0rem; display: flex; flex-direction: row-reverse; }
-.bank-diagram { padding: 6rem 0px; }
+.bank-diagram {padding: 6rem 0px;padding-bottom: 0;}
 .check-diagram { padding: 9rem 0px; background: rgba(127, 224, 255, 0.08); }
 .row.hero_wrapper.bottom_hero { flex-direction: row-reverse; }
 .row.hero_wrapper.bottom_hero .hero_title { padding-right: 0px; font-size: 4.5rem; font-weight: 500; }
@@ -175,7 +175,7 @@ section#app_reviews { margin-bottom: 7rem; }
 .bottom_hero .buttons { width: 76%; }
 .hero_image_bottom .active_user { bottom: -14px; left: 13px; }
 .benefits_video_wrap .section-title p { margin-bottom: 4rem; color: var(--black)  !important; }
-.benefits_video_wrap .section-title h1 { color: var(--dark-blue)  !important; }
+.benefits_video_wrap .section-title h1 { margin-bottom: 2rem !important; color: var(--dark-blue)  !important; }
 .benefits_video { background: white !important; }
 section#heroSection { margin-bottom: 9rem; margin-top: 12rem; }
 #footer { background: var(--dark-blue); padding-top: 8rem; }
@@ -307,7 +307,7 @@ img.img-fluid.about_showcase_image { width: 70%; }
 .with_us img, .without_us img { width: 87%; margin: 0px auto; }
 .with_us, .without_us { display: flex; justify-content: center; flex-direction: column; }
 .with_us h1, .without_us h1 { text-align: center; margin-bottom: 3rem; text-transform: uppercase; font-size: 4.5rem; font-weight: 600; }
-section#you_will_get { margin: 8rem 0px; }
+section#you_will_get {margin: 10rem 0px;margin-bottom: 6rem;}
 .without_us img { width: 88%; }
 td.comp_feature_yes i { color: var(--green); background: white; border-radius: 100%; }
 td.comp_feature_no i { color: var(--red); }
@@ -322,7 +322,7 @@ td.comp_table_feature_tittle:first-child { background: var(--white); }
 .competitive_header { margin-bottom: 3rem; }
 tbody.comp_table_body_wrapper tr:nth-child(2) td { padding-top: 4rem; }
 section#competitive .row { }
-section#competitive {margin-top: 7rem;}
+section#competitive { margin-top: 12rem; margin-bottom: 10rem; }
 .triangle_shape { position: relative; }
 .triangle_shape span { width: 0px; height: 0px; border-left: 34px solid transparent; border-right: 34px solid transparent; border-bottom: 34px solid var(--blue); margin: 2rem; position: absolute; left: 39px; transform: rotate(180deg); bottom: -39px; }
 .competitive_header .diagram_subtile { font-size: 1.6rem; }
@@ -333,6 +333,5 @@ td.comp_feature_qustion i { font-size: 3rem; color: rgb(181, 181, 181); backgrou
 .without_us { position: relative; }
 .without_us span { position: absolute; content: ""; width: 1px; height: 517px; top: 96px; right: -13px; border-left: 2px dashed var(--gray); }
 .check_digram_image_wrapper { justify-content: flex-start; display: flex; }
-.info_support{
-    text-transform: initial;
-}
+.info_support { text-transform: initial; }
+#instruction_video .section-title h1::after { width: 100px; }

@@ -172,20 +172,43 @@ width: 69%;
         margin-top: 0rem;
     }
     section#competitive {
-        margin-top: 3rem;
+        margin-top: 8rem;
     }
     .hero_image {
         display: flex;
         align-items: center;
         justify-content: center;
-    
-    
+        margin-top: 5rem;
 }
 
 .hero_image_bottom .active_user {
     bottom: -14px;
     left: 61px;
 }
+#benefits .section-title h1 {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.section-title h1 {
+    
+    margin-bottom: 0rem;
+}
+.benefits_video_wrap .section-title h1 {
+    margin-bottom: 2rem !important;
+}
+.video_link iframe {
+
+    height: 238px;
+}
+#instruction_video{
+    padding-bottom: 9rem;
+}
+
+.competitive_header h1 {
+    font-size: 3.6rem;
+    
+}
+
 
 
 }
@@ -334,7 +357,7 @@ left: 88px;
         justify-content: center;
     }
     .row.hero_wrapper.bottom_hero .hero_desc {
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
     }
 
     .active_user_content h1 {
@@ -393,7 +416,7 @@ left: 88px;
 
     .row.instruction_video_side {
         justify-content: center;
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
     }
     .logoIn_form_wrapper {
         width: 95%;
@@ -424,7 +447,7 @@ left: 88px;
     }
     #how_it_works .section-title h1{
         text-align: start;
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     /* .section-title h1::after {
         
@@ -475,6 +498,22 @@ left: 88px;
         font-size: 3.5rem;
         
     }
+    #instruction_video .section-title h1::after {
+        width: 67px;
+    }
+    section#instruction_video .section-title h1 {
+        margin-bottom: 4rem;
+    }
+    h3.partners-title {
+    
+        font-size: 2.2rem;
+    }
+    .benefits_video .section-title{
+        margin-bottom: 0;
+    }
+    #instruction_video{
+    padding-bottom: 1rem;
+}
 }
 
 
@@ -654,7 +693,7 @@ h2.diagram_title {
 }
 
 .row.instruction_video_side {
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 
 
@@ -952,14 +991,19 @@ section#instruction_video .section-title p {
 .buttons.video_section_button {
     width: 100%;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .check-diagram {
     padding-top: 2rem;
 }
+.hero_image {
 
-
+    margin-top: 1rem;
+}
+#users {
+    margin-top: 4rem;
+}
 
 }
 
