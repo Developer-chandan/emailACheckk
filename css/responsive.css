@@ -252,941 +252,954 @@
         font-size: 3.6rem;
 
     }
-nav.navbar {
-    padding: 1px 0px;
-    background: white;
-    z-index: 999;
-    padding-top: 8px;
-}
-section#users .container {
-    max-width: 95% !important;
-}
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:768px) {
-
-    a,
-    p,
-    span,
-    strong,
-    article {
-        font-size: 1.6rem;
-        color: rgb(79, 77, 77);
+    nav.navbar {
+        padding: 1px 0px;
+        background: white;
+        z-index: 999;
+        padding-top: 8px;
     }
 
-    h1 {
-        font-size: 4rem;
-        font-weight: 500;
+    section#users .container {
+        max-width: 95% !important;
     }
 
-    h2 {
-        font-size: 2.8rem;
-        font-weight: 600;
-    }
-
-    h3 {
-        font-size: 1.8rem;
-        font-weight: 500;
-    }
-
-
-
-    h1.hero_title {
-
-        padding-right: 0rem;
-
-        margin-bottom: 3rem;
-
-        line-height: 47px;
-    }
-
-    h1.hero_title span {
-        font-size: 4rem;
-
-    }
-
-    .hero_desc p {
-        padding-right: 8rem;
-
-    }
-
-    .hero_desc .buttons {
-        width: 80%;
-
-    }
-
-    .hero_desc {
-        padding-top: 2rem;
-    }
-
-    .hero_image img {
-        width: 75%;
-        margin: 0 auto;
-    }
-
-    .active_user {
-
-        padding: 2rem 1.5rem 3rem 1.5rem;
-
-        bottom: -11px;
-
-        left: 88px;
-    }
-
-    .active_user_images img:last-child {
+    .without_us span {
+        position: initial;
         display: none;
     }
-
-
-
-    .section-title {
-        width: 96%;
-        margin: 0px auto 2rem;
-
+    #you_will_get .row {
+        --bs-gutter-x: 0rem;
+        --bs-gutter-y: 0;
+        
     }
 
-    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs {
-
-        width: 100%;
-
-        flex-wrap: wrap;
-    }
-
-    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li {
-        margin-bottom: 1.5rem;
-    }
-
-    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
-        padding: 1rem 2.5rem;
-        box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
-        font-size: 14px;
-    }
-
-    .section-title.app_feature {
-        margin-bottom: 5rem;
-        width: 100%;
-    }
-
-    .table_main_wrapper {
-        width: 100%;
-        margin: 0px auto;
-    }
+}
 
 
 
-    section#partners {
-        padding: 5rem 0px;
-
-    }
-
-    h3.partners-title {
-
-        margin-bottom: 4rem;
-
-    }
-
-    section#how_it_works {
-        margin-top: 1rem;
-    }
-
-    .diagram_wrap {
-        width: 100%;
-
-    }
-
-    .signup_digram_image_wrapper img {
-        width: 73%;
-        margin-top: 0rem;
-    }
-
-    .check-diagram {
-        padding: 4rem 0px;
-        background: var(--white)
-    }
-
-
-    .bank-diagram {
-
-        padding-bottom: 0;
-    }
-
-    section#heroSection {
-        margin-bottom: 2rem;
-        margin-top: 9rem;
-    }
-
-    .row.hero_wrapper.bottom_hero .hero_title span,
-    .row.hero_wrapper.bottom_hero .hero_title {
-        font-size: 4rem;
-    }
-
-    .bottom_hero .buttons {
-        width: 80%;
-        justify-content: center;
-    }
-
-    .row.hero_wrapper.bottom_hero .hero_desc {
-        margin-bottom: 0rem;
-    }
-
-    .active_user_content h1 {
-        font-size: 3rem;
-        line-height: 1;
-    }
-
-    .hero_image_bottom .active_user {
-        bottom: -26px;
-        left: 38px;
-    }
-
-    .bottom_hero .active_user {
-        padding: 2rem 1.5rem 2rem 1.5rem;
-
-    }
 
 
 
-    .user_box {
-        width: 282px;
-        padding: 2.5rem 4rem;
-        background: rgb(249, 249, 249);
-        box-shadow: rgb(131 131 131 / 88%) 0px 6px 5px;
-        border-radius: 20px;
-        margin-bottom: 3rem;
-    }
 
-    #users {
-        background: url(/img/world-imge.png) center center / auto no-repeat;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-    }
 
-    .user_box:first-child {
-        margin-top: -5rem;
-    }
 
-    section#app_reviews {
-        margin-bottom: 7rem;
-        margin-top: 15rem;
-    }
 
-    .review_overview {
-        display: flex;
-        align-items: center;
-        background: #f4f4f2;
-        padding: 3rem;
-        width: 100%;
-        margin-bottom: 2rem;
-    }
 
-    .review-box {
-        margin-bottom: 2rem;
-    }
 
-    .get_our_app ul li a img {
-        width: 29%;
-    }
 
-    .row.instruction_video_side {
-        justify-content: center;
-        margin-bottom: 10rem;
-    }
 
-    .logoIn_form_wrapper {
-        width: 95%;
-        margin: 0px auto;
-        box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
-        padding: 3rem;
-        background: var(--white);
-        border-radius: 10px;
-    }
 
-    .about_hero_image {
 
-        margin-bottom: 13rem;
-    }
 
-    section#heroSection.about_hero_section {
-        margin-bottom: 2rem;
-        margin-top: 10rem;
-    }
 
-    .textandemail .text_andmail_verification_wrapper {
+    @media(max-width:768px) {
 
-        width: 36%;
+        a,
+        p,
+        span,
+        strong,
+        article {
+            font-size: 1.6rem;
+            color: rgb(79, 77, 77);
+        }
 
-    }
+        h1 {
+            font-size: 4rem;
+            font-weight: 500;
+        }
 
-    h1.benefits_number {
-        outline: none;
-    }
+        h2 {
+            font-size: 2.8rem;
+            font-weight: 600;
+        }
 
-    #how_it_works .section-title p {
-        display: none;
-    }
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
 
-    #how_it_works .section-title h1 {
-        text-align: start;
-        font-size: 3.7rem;
-    }
 
-    /* .section-title h1::after {
+
+        h1.hero_title {
+
+            padding-right: 0rem;
+
+            margin-bottom: 3rem;
+
+            line-height: 47px;
+        }
+
+        h1.hero_title span {
+            font-size: 4rem;
+
+        }
+
+        .hero_desc p {
+            padding-right: 8rem;
+
+        }
+
+        .hero_desc .buttons {
+            width: 80%;
+
+        }
+
+        .hero_desc {
+            padding-top: 2rem;
+        }
+
+        .hero_image img {
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .active_user {
+
+            padding: 2rem 1.5rem 3rem 1.5rem;
+
+            bottom: -11px;
+
+            left: 88px;
+        }
+
+        .active_user_images img:last-child {
+            display: none;
+        }
+
+
+
+        .section-title {
+            width: 96%;
+            margin: 0px auto 2rem;
+
+        }
+
+        .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs {
+
+            width: 100%;
+
+            flex-wrap: wrap;
+        }
+
+        .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li {
+            margin-bottom: 1.5rem;
+        }
+
+        .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
+            padding: 1rem 2.5rem;
+            box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+            font-size: 14px;
+        }
+
+        .section-title.app_feature {
+            margin-bottom: 5rem;
+            width: 100%;
+        }
+
+        .table_main_wrapper {
+            width: 100%;
+            margin: 0px auto;
+        }
+
+
+
+        section#partners {
+            padding: 5rem 0px;
+
+        }
+
+        h3.partners-title {
+
+            margin-bottom: 4rem;
+
+        }
+
+        section#how_it_works {
+            margin-top: 1rem;
+        }
+
+        .diagram_wrap {
+            width: 100%;
+
+        }
+
+        .signup_digram_image_wrapper img {
+            width: 73%;
+            margin-top: 0rem;
+        }
+
+        .check-diagram {
+            padding: 4rem 0px;
+            background: var(--white)
+        }
+
+
+        .bank-diagram {
+
+            padding-bottom: 0;
+        }
+
+        section#heroSection {
+            margin-bottom: 2rem;
+            margin-top: 9rem;
+        }
+
+        .row.hero_wrapper.bottom_hero .hero_title span,
+        .row.hero_wrapper.bottom_hero .hero_title {
+            font-size: 4rem;
+        }
+
+        .bottom_hero .buttons {
+            width: 80%;
+            justify-content: center;
+        }
+
+        .row.hero_wrapper.bottom_hero .hero_desc {
+            margin-bottom: 0rem;
+        }
+
+        .active_user_content h1 {
+            font-size: 3rem;
+            line-height: 1;
+        }
+
+        .hero_image_bottom .active_user {
+            bottom: -26px;
+            left: 38px;
+        }
+
+        .bottom_hero .active_user {
+            padding: 2rem 1.5rem 2rem 1.5rem;
+
+        }
+
+
+
+        .user_box {
+            width: 282px;
+            padding: 2.5rem 4rem;
+            background: rgb(249, 249, 249);
+            box-shadow: rgb(131 131 131 / 88%) 0px 6px 5px;
+            border-radius: 20px;
+            margin-bottom: 3rem;
+        }
+
+        #users {
+            background: url(/img/world-imge.png) center center / auto no-repeat;
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+        }
+
+        .user_box:first-child {
+            margin-top: -5rem;
+        }
+
+        section#app_reviews {
+            margin-bottom: 7rem;
+            margin-top: 15rem;
+        }
+
+        .review_overview {
+            display: flex;
+            align-items: center;
+            background: #f4f4f2;
+            padding: 3rem;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .review-box {
+            margin-bottom: 2rem;
+        }
+
+        .get_our_app ul li a img {
+            width: 29%;
+        }
+
+        .row.instruction_video_side {
+            justify-content: center;
+            margin-bottom: 10rem;
+        }
+
+        .logoIn_form_wrapper {
+            width: 95%;
+            margin: 0px auto;
+            box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
+            padding: 3rem;
+            background: var(--white);
+            border-radius: 10px;
+        }
+
+        .about_hero_image {
+
+            margin-bottom: 13rem;
+        }
+
+        section#heroSection.about_hero_section {
+            margin-bottom: 2rem;
+            margin-top: 10rem;
+        }
+
+        .textandemail .text_andmail_verification_wrapper {
+
+            width: 36%;
+
+        }
+
+        h1.benefits_number {
+            outline: none;
+        }
+
+        #how_it_works .section-title p {
+            display: none;
+        }
+
+        #how_it_works .section-title h1 {
+            text-align: start;
+            font-size: 3.7rem;
+        }
+
+        /* .section-title h1::after {
         
       display: block;
     } */
 
-    section#how_it_works .section-title {
+        section#how_it_works .section-title {
 
-        margin-left: 0;
-        margin-bottom: 1.5rem;
-    }
-
-    h3.diagram_number {
-        width: 33px;
-        height: 33px;
-        border: none;
-        outline: none;
-        top: 16px;
-    }
-
-    h3.diagram_number.white {
-        background: var(--yellow);
-    }
-
-    section#terms_condition .diagram_number {
-
-        left: 13px;
-    }
-
-    .row.benefit_to_bank.page.is-active {
-
-        margin-top: -94px;
-    }
-
-    #how_it_works .section-title h1:after {
-        display: none;
-    }
-
-    img.img-fluid.about_showcase_image {
-        width: 91%;
-    }
-
-    .modal-dialog {
-        max-width: 70%;
-    }
-
-    .modal_mobile_apps ul li a img {
-        width: 100%;
-    }
-
-    .contents_wrapper {
-        width: 98%;
-    }
-
-    .with_us h1,
-    .without_us h1 {
-
-        font-size: 3.5rem;
-
-    }
-
-    #instruction_video .section-title h1::after {
-        width: 67px;
-    }
-
-    section#instruction_video .section-title h1 {
-        margin-bottom: 4rem;
-    }
-
-    h3.partners-title {
-
-        font-size: 2.2rem;
-    }
-
-    .benefits_video .section-title {
-        margin-bottom: 0;
-    }
-
-    #instruction_video {
-        padding-bottom: 1rem;
-    }
-}
+            margin-left: 0;
+            margin-bottom: 1.5rem;
+        }
 
+        h3.diagram_number {
+            width: 33px;
+            height: 33px;
+            border: none;
+            outline: none;
+            top: 16px;
+        }
 
+        h3.diagram_number.white {
+            background: var(--yellow);
+        }
 
+        section#terms_condition .diagram_number {
 
+            left: 13px;
+        }
 
+        .row.benefit_to_bank.page.is-active {
 
+            margin-top: -94px;
+        }
 
+        #how_it_works .section-title h1:after {
+            display: none;
+        }
 
+        img.img-fluid.about_showcase_image {
+            width: 91%;
+        }
 
+        .modal-dialog {
+            max-width: 70%;
+        }
 
+        .modal_mobile_apps ul li a img {
+            width: 100%;
+        }
 
-@media(max-width:575px) {
+        .contents_wrapper {
+            width: 98%;
+        }
 
-    .container,
-    .container-lg {
-        width: 100%;
-        padding: 0 2rem;
-    }
-
-    h1 {
-        font-size: 2.7rem;
-        font-weight: 500;
-    }
-
-    h2 {
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
-    h3 {
-        font-size: 1.6rem;
-        font-weight: 500;
-    }
-
-    h1.hero_title span {
-        font-size: 3rem;
-    }
+        .with_us h1,
+        .without_us h1 {
 
-    h1.hero_title {
-        padding-right: 0rem;
-        margin-bottom: 3rem;
-        line-height: 38px;
-        margin-top: 0rem;
-    }
-
-    .hero_desc p {
-        padding-right: 0rem !important;
-    }
-
-    .hero_desc .buttons {
-        width: 83%;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-
-    .row.hero_wrapper .buttons a {
-        margin-bottom: 2rem;
-    }
+            font-size: 3.5rem;
 
-    .hero_image img {
-        width: 100%;
-
-    }
+        }
 
-    .active_user {
-        padding: 2rem 2.5rem 2rem 1.5rem;
-        bottom: -56px;
-        left: 19px;
-    }
+        #instruction_video .section-title h1::after {
+            width: 67px;
+        }
 
-    .active_user_images img {
-        width: 36px;
-        height: 36px;
-        border: 3px solid rgb(221, 221, 221);
-        border-radius: 50%;
-        margin-right: -5px;
-        box-shadow: rgb(156 156 156) 1px 4px 3px 0px;
-    }
+        section#instruction_video .section-title h1 {
+            margin-bottom: 4rem;
+        }
 
-    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
-        padding: 1rem 1.1rem;
-        box-shadow: 0px 0px 0px 1px var(--gray);
-        font-size: 13px;
-    }
+        h3.partners-title {
 
-    .benefit_to_payee>div,
-    .benefit_to_payor>div {
-        margin-bottom: 8rem;
-    }
+            font-size: 2.2rem;
+        }
 
-    .video_link iframe {
-        width: 100%;
-        height: 227px;
-    }
+        .benefits_video .section-title {
+            margin-bottom: 0;
+        }
 
-    #instruction_video {
-        padding: 7rem 0px;
-        padding-bottom: 1px;
+        #instruction_video {
+            padding-bottom: 1rem;
+        }
     }
-
-    #apps_features {
 
-        padding-top: 1rem;
 
-    }
 
-    .partners_logo img {
-        width: 46%;
-    }
 
-    .partners_logo {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 3rem;
-        flex-wrap: wrap;
 
-    }
 
-    p.diagram_subtile {
-        font-weight: 600;
-        line-height: 19px;
-        text-transform: uppercase;
-        position: relative;
-        padding-left: 61px;
-        padding-bottom: 5px;
-        font-size: 13px !important;
-    }
 
 
-    .accordion-item {
-        margin: 25px 0px;
-        background: var(--white);
-        box-shadow: rgb(199 199 199 / 40%) 0px 4px 3px 1px;
-        border-radius: 10px;
-        padding: 7px 2px 14px 3.5rem;
-        position: relative;
-    }
 
-    button.accordion-button i {
-        position: absolute;
-        right: 11px;
-        top: 17px;
-    }
 
-    button.accordion-button {
-        font-weight: 500;
-        font-size: 15px;
-        color: var(--dark-blue);
-        text-transform: capitalize;
-        background: none;
-        padding-left: 1.5rem;
-        padding-right: 2rem;
-    }
 
+    @media(max-width:575px) {
 
+        .container,
+        .container-lg {
+            width: 100%;
+            padding: 0 2rem;
+        }
 
-    h2.diagram_title {
-        letter-spacing: .3px;
-        color: var(--dark-blue);
-        margin-bottom: 17px;
-    }
+        h1 {
+            font-size: 2.7rem;
+            font-weight: 500;
+        }
 
-    .check_digram_image_wrapper {
-        margin-top: 3rem;
-    }
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+
+        h1.hero_title span {
+            font-size: 3rem;
+        }
+
+        h1.hero_title {
+            padding-right: 0rem;
+            margin-bottom: 3rem;
+            line-height: 38px;
+            margin-top: 0rem;
+        }
+
+        .hero_desc p {
+            padding-right: 0rem !important;
+        }
+
+        .hero_desc .buttons {
+            width: 83%;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+
+        .row.hero_wrapper .buttons a {
+            margin-bottom: 2rem;
+        }
+
+        .hero_image img {
+            width: 100%;
+
+        }
+
+        .active_user {
+            padding: 2rem 2.5rem 2rem 1.5rem;
+            bottom: -56px;
+            left: 19px;
+        }
+
+        .active_user_images img {
+            width: 36px;
+            height: 36px;
+            border: 3px solid rgb(221, 221, 221);
+            border-radius: 50%;
+            margin-right: -5px;
+            box-shadow: rgb(156 156 156) 1px 4px 3px 0px;
+        }
+
+        .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs li a[data-switcher] {
+            padding: 1rem 1.1rem;
+            box-shadow: 0px 0px 0px 1px var(--gray);
+            font-size: 13px;
+        }
+
+        .benefit_to_payee>div,
+        .benefit_to_payor>div {
+            margin-bottom: 8rem;
+        }
+
+        .video_link iframe {
+            width: 100%;
+            height: 227px;
+        }
+
+        #instruction_video {
+            padding: 7rem 0px;
+            padding-bottom: 1px;
+        }
+
+        #apps_features {
+
+            padding-top: 1rem;
+
+        }
+
+        .partners_logo img {
+            width: 46%;
+        }
+
+        .partners_logo {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 3rem;
+            flex-wrap: wrap;
+
+        }
+
+        p.diagram_subtile {
+            font-weight: 600;
+            line-height: 19px;
+            text-transform: uppercase;
+            position: relative;
+            padding-left: 61px;
+            padding-bottom: 5px;
+            font-size: 13px !important;
+        }
+
+
+        .accordion-item {
+            margin: 25px 0px;
+            background: var(--white);
+            box-shadow: rgb(199 199 199 / 40%) 0px 4px 3px 1px;
+            border-radius: 10px;
+            padding: 7px 2px 14px 3.5rem;
+            position: relative;
+        }
+
+        button.accordion-button i {
+            position: absolute;
+            right: 11px;
+            top: 17px;
+        }
+
+        button.accordion-button {
+            font-weight: 500;
+            font-size: 15px;
+            color: var(--dark-blue);
+            text-transform: capitalize;
+            background: none;
+            padding-left: 1.5rem;
+            padding-right: 2rem;
+        }
+
+
+
+        h2.diagram_title {
+            letter-spacing: .3px;
+            color: var(--dark-blue);
+            margin-bottom: 17px;
+        }
+
+        .check_digram_image_wrapper {
+            margin-top: 3rem;
+        }
 
-    .bank-diagram {
-        padding: 6rem 0px;
-        padding-top: 1rem;
-    }
+        .bank-diagram {
+            padding: 6rem 0px;
+            padding-top: 1rem;
+        }
 
-    .row.hero_wrapper.bottom_hero .hero_title span,
-    .row.hero_wrapper.bottom_hero .hero_title {
-        font-size: 3rem;
-    }
+        .row.hero_wrapper.bottom_hero .hero_title span,
+        .row.hero_wrapper.bottom_hero .hero_title {
+            font-size: 3rem;
+        }
 
-    .bank-diagram {
+        .bank-diagram {
 
-        padding-bottom: 0;
-    }
+            padding-bottom: 0;
+        }
+
 
+        .bottom_hero h1.hero_title {
+            padding-right: 0rem;
+            margin-bottom: 3rem;
+            line-height: 37px;
+            margin-top: 0rem;
+        }
+
+
+        .hero_image_bottom .active_user {
+            bottom: -50px;
+            left: 20px;
+        }
 
-    .bottom_hero h1.hero_title {
-        padding-right: 0rem;
-        margin-bottom: 3rem;
-        line-height: 37px;
-        margin-top: 0rem;
-    }
 
+        .bottom_hero .active_user {
+            padding: 2rem 2rem 2rem 1.5rem;
+        }
 
-    .hero_image_bottom .active_user {
-        bottom: -50px;
-        left: 20px;
-    }
+        .benefits_video {
+            padding: 7rem 0px;
+            padding-bottom: 2rem;
+            margin-top: 6rem;
+        }
 
+        .row.instruction_video_side {
+            margin-bottom: 7rem;
+        }
 
-    .bottom_hero .active_user {
-        padding: 2rem 2rem 2rem 1.5rem;
-    }
 
-    .benefits_video {
-        padding: 7rem 0px;
-        padding-bottom: 2rem;
-        margin-top: 6rem;
-    }
+        .user_box_wrapper h1 {
+            font-weight: 500;
+            font-size: 35px;
+            color: rgb(61, 61, 61);
+        }
 
-    .row.instruction_video_side {
-        margin-bottom: 7rem;
-    }
+        .review_overview {
 
+            width: 100%;
 
-    .user_box_wrapper h1 {
-        font-weight: 500;
-        font-size: 35px;
-        color: rgb(61, 61, 61);
-    }
+        }
 
-    .review_overview {
+        .get_our_app ul li {
+            margin-bottom: 1rem;
+        }
 
-        width: 100%;
+        .get_our_app ul li a img {
+            width: 70%;
+        }
 
-    }
 
-    .get_our_app ul li {
-        margin-bottom: 1rem;
-    }
+        .about_hero_image {
 
-    .get_our_app ul li a img {
-        width: 70%;
-    }
+            margin-top: 8rem;
 
+            margin-bottom: 15rem;
+        }
 
-    .about_hero_image {
+        .diagram_title_wrapper.about_title_weapper {
+            padding-right: 1rem;
+            padding-left: 1rem;
+        }
 
-        margin-top: 8rem;
+        .complete {
+            display: none;
+        }
 
-        margin-bottom: 15rem;
-    }
 
-    .diagram_title_wrapper.about_title_weapper {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
+        .about_hero_image .active_user {
+            padding: 2rem 2.5rem 2rem 1.5rem;
+            bottom: -100px;
+            display: none;
+        }
 
-    .complete {
-        display: none;
-    }
+        section#contact {
+            margin: 10rem 0px;
+        }
 
 
-    .about_hero_image .active_user {
-        padding: 2rem 2.5rem 2rem 1.5rem;
-        bottom: -100px;
-        display: none;
-    }
+        .contact_content {
 
-    section#contact {
-        margin: 10rem 0px;
-    }
+            margin-top: 3rem;
+        }
 
 
-    .contact_content {
+        .contact_content .diagram_title {
+            margin-bottom: 19px;
+        }
 
-        margin-top: 3rem;
-    }
+        .contact_content::before {
+            display: none;
+        }
 
+        .navbar-collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            padding-bottom: 0rem;
+        }
 
-    .contact_content .diagram_title {
-        margin-bottom: 19px;
-    }
 
-    .contact_content::before {
-        display: none;
-    }
+        .logoIn_form_wrapper {
+            width: 100%;
+            margin: 0px auto;
+            box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
+            padding: 1.5rem;
+            background: var(--white);
+            border-radius: 10px;
+        }
 
-    .navbar-collapse {
-        flex-basis: 100%;
-        flex-grow: 1;
-        align-items: center;
-        padding-bottom: 0rem;
-    }
 
+        .login_form {
+            padding: 2rem 0rem;
+        }
 
-    .logoIn_form_wrapper {
-        width: 100%;
-        margin: 0px auto;
-        box-shadow: rgb(223 223 223) 0px 0px 4px 1px;
-        padding: 1.5rem;
-        background: var(--white);
-        border-radius: 10px;
-    }
+        ul.backup_btns li a {
+            color: rgb(73, 73, 255);
+            text-transform: none;
+            font-size: 13px;
+        }
 
 
-    .login_form {
-        padding: 2rem 0rem;
-    }
+        ul.backup_btns li {
+            display: flex;
+            justify-content: space-between;
+        }
 
-    ul.backup_btns li a {
-        color: rgb(73, 73, 255);
-        text-transform: none;
-        font-size: 13px;
-    }
+        .btn {
+            padding: .8rem 2.5rem;
 
+        }
 
-    ul.backup_btns li {
-        display: flex;
-        justify-content: space-between;
-    }
+        .hero_desc {
+            margin-top: 2rem;
+        }
 
-    .btn {
-        padding: .8rem 2.5rem;
+        .row.hero_wrapper.bottom_hero .hero_desc {
+            margin-top: 0;
+        }
 
-    }
+        .col-md-7.hero_desc.top_hero_desc .hero_title {
+            margin-top: 0rem;
+        }
 
-    .hero_desc {
-        margin-top: 2rem;
-    }
+        .instruction_video_wrap {
+            width: 98%;
+        }
 
-    .row.hero_wrapper.bottom_hero .hero_desc {
-        margin-top: 0;
-    }
+        .textandemail .text_andmail_verification_wrapper {
 
-    .col-md-7.hero_desc.top_hero_desc .hero_title {
-        margin-top: 0rem;
-    }
+            width: 80%;
 
-    .instruction_video_wrap {
-        width: 98%;
-    }
+        }
 
-    .textandemail .text_andmail_verification_wrapper {
+        .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs .tab.is-active a[data-switcher] {
+            box-shadow: none;
+        }
 
-        width: 80%;
+        a.navbar-brand img {
+            width: 148px;
+        }
 
-    }
+        .benefits_cards {
 
-    .benefits_data_switch_tab .benefits_data_switch_tab_wrapper .tabs .tab.is-active a[data-switcher] {
-        box-shadow: none;
-    }
+            box-shadow: rgb(221 221 221) 0px 0px 2px 1px;
 
-    a.navbar-brand img {
-        width: 148px;
-    }
+        }
 
-    .benefits_cards {
+        .pages {
+            margin-top: 6rem;
+        }
 
-        box-shadow: rgb(221 221 221) 0px 0px 2px 1px;
+        section#terms_condition .row {
+            --bs-gutter-x: 0;
 
-    }
+        }
 
-    .pages {
-        margin-top: 6rem;
-    }
+        .terms_condition_footer a,
+        p.copywite_text {
+            font-size: 13px;
+        }
 
-    section#terms_condition .row {
-        --bs-gutter-x: 0;
+        .login_register_footer_wrapper {
+            width: 80%;
+            margin: 0px auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            align-content: center;
+            align-items: center;
+        }
 
-    }
+        .terms_condition_footer a {
 
-    .terms_condition_footer a,
-    p.copywite_text {
-        font-size: 13px;
-    }
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
 
-    .login_register_footer_wrapper {
-        width: 80%;
-        margin: 0px auto;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-content: center;
-        align-items: center;
-    }
+        h3.diagram_number {
+            width: 30px;
+            height: 30px;
+            border: none;
+            outline: none;
+            top: 13px;
+            left: 10px;
+        }
 
-    .terms_condition_footer a {
+        section#terms_condition .diagram_number {
+            left: 10px;
+        }
 
-        margin-bottom: 1rem;
-        display: inline-block;
-    }
+        #footer {
 
-    h3.diagram_number {
-        width: 30px;
-        height: 30px;
-        border: none;
-        outline: none;
-        top: 13px;
-        left: 10px;
-    }
+            padding-top: 6rem;
+        }
 
-    section#terms_condition .diagram_number {
-        left: 10px;
-    }
+        .modal-dialog {
+            max-width: 95%;
+            margin: 0 auto;
+        }
 
-    #footer {
+        .modal_mobile_apps ul {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
 
-        padding-top: 6rem;
-    }
+        .modal_mobile_apps ul li a img {
+            width: 70%;
+        }
 
-    .modal-dialog {
-        max-width: 95%;
-        margin: 0 auto;
-    }
+        .modal_mobile_apps ul li {
+            margin: 0rem;
+            width: 100%;
+        }
 
-    .modal_mobile_apps ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+        .modal_mobile_apps_google_play {
+            width: 70% !important;
+        }
 
-    .modal_mobile_apps ul li a img {
-        width: 70%;
-    }
+        .modal-footer .btn {
+            padding: .8rem 3rem;
+        }
 
-    .modal_mobile_apps ul li {
-        margin: 0rem;
-        width: 100%;
-    }
+        .modal-footer {
+            flex-wrap: nowrap;
+        }
 
-    .modal_mobile_apps_google_play {
-        width: 70% !important;
-    }
 
-    .modal-footer .btn {
-        padding: .8rem 3rem;
-    }
+        .modal.fade.show {
+            padding-right: 0 !important;
+        }
 
-    .modal-footer {
-        flex-wrap: nowrap;
-    }
+        .contents_wrapper {
+            padding: 1.3rem;
+        }
 
 
-    .modal.fade.show {
-        padding-right: 0 !important;
-    }
 
-    .contents_wrapper {
-        padding: 1.3rem;
-    }
 
+        .modal-footer a {
+            margin-bottom: 0 !important;
+        }
 
 
+        .with_us h1,
+        .without_us h1 {
+            font-size: 2.7rem;
+        }
 
-    .modal-footer a {
-        margin-bottom: 0 !important;
-    }
+        .without_us img,
+        .with_us img {
+            width: 100%;
+        }
 
+        .signup_digram_image_wrapper img {
+            width: 90%;
+            margin-top: 0rem;
+        }
 
-    .with_us h1,
-    .without_us h1 {
-        font-size: 2.7rem;
-    }
+        .check_digram_image_wrapper img {
+            width: 83%;
+            margin-top: 1rem;
+        }
 
-    .without_us img,
-    .with_us img {
-        width: 100%;
-    }
+        .bank_digram_image_wrapper img {
+            width: 84%;
+            margin-top: 0rem;
+        }
 
-    .signup_digram_image_wrapper img {
-        width: 90%;
-        margin-top: 0rem;
-    }
+        .competitive_header h1 {
+            font-size: 2.5rem;
+        }
 
-    .check_digram_image_wrapper img {
-        width: 83%;
-        margin-top: 1rem;
-    }
+        .competitive_header p {
+            font-size: 1.8rem;
+        }
 
-    .bank_digram_image_wrapper img {
-        width: 84%;
-        margin-top: 0rem;
-    }
+        .comp_table_main_wrapper table {
+            width: 858px;
+        }
 
-    .competitive_header h1 {
-        font-size: 2.5rem;
-    }
+        tr.comp_table_head td {
 
-    .competitive_header p {
-        font-size: 1.8rem;
-    }
+            padding: 1.4rem 0px;
 
-    .comp_table_main_wrapper table {
-        width: 858px;
-    }
+        }
 
-    tr.comp_table_head td {
+        tr.comp_table_head td {
 
-        padding: 1.4rem 0px;
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
 
-    }
+        .triangle_shape span {
 
-    tr.comp_table_head td {
+            left: 16px;
 
-        font-size: 1.6rem;
-        font-weight: 400;
-    }
+        }
 
-    .triangle_shape span {
+        td.comp_table_feature_tittle {
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
 
-        left: 16px;
+        td.comp_feature_yes i,
+        td.comp_feature_no i {
+            font-size: 2.4rem;
+        }
 
-    }
+        .accordion-button {
 
-    td.comp_table_feature_tittle {
-        font-size: 1.6rem;
-        font-weight: 500;
-    }
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-    td.comp_feature_yes i,
-    td.comp_feature_no i {
-        font-size: 2.4rem;
-    }
+        section#you_will_get .container-lg {
+            padding: 0;
+        }
 
-    .accordion-button {
+        section#you_will_get {
+            margin-bottom: 3rem;
+        }
 
-        display: flex;
-        flex-wrap: wrap;
-    }
+        section#instruction_video .section-title p {
+            color: var(--gray);
+            margin-bottom: 2rem;
+        }
 
-    section#you_will_get .container-lg {
-        padding: 0;
-    }
 
-    section#you_will_get {
-        margin-bottom: 3rem;
-    }
+        .buttons.video_section_button {
+            width: 100%;
+            justify-content: center;
+            margin-top: 3rem;
+        }
 
-    section#instruction_video .section-title p {
-        color: var(--gray);
-        margin-bottom: 2rem;
-    }
+        .check-diagram {
+            padding-top: 2rem;
+        }
 
+        .hero_image {
 
-    .buttons.video_section_button {
-        width: 100%;
-        justify-content: center;
-        margin-top: 3rem;
-    }
+            margin-top: 1rem;
+        }
 
-    .check-diagram {
-        padding-top: 2rem;
-    }
+        #users {
+            margin-top: 4rem;
+        }
 
-    .hero_image {
 
-        margin-top: 1rem;
-    }
 
-    #users {
-        margin-top: 4rem;
     }
 
 
 
-}
 
 
 
@@ -1197,16 +1210,13 @@ section#users .container {
 
 
 
+    @media (max-width:557px) and (min-width:430px) {
 
+        .hero_desc .buttons {
+            width: 96%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
 
 
-@media (max-width:557px) and (min-width:430px) {
-
-    .hero_desc .buttons {
-        width: 96%;
-        justify-content: space-between;
-        flex-wrap: wrap;
     }
-
-
-}

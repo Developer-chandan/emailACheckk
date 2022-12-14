@@ -1908,8 +1908,7 @@ td.comp_feature_qustion i {
     top: 96px;
     right: -13px;
     border-left: 2px dashed var(--gray);
-    display: none;
-    position: initial;
+
 }
 
 .check_digram_image_wrapper {
