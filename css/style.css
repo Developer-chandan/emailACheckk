@@ -1579,7 +1579,7 @@ form#form .row {
 .form-control {
     padding: 7px 20px;
     font-size: 14px;
-    border: 1px solid rgb(233, 233, 233);
+    border: 1px solid rgb(228 224 224);
     border-radius: 5px;
 }
 
@@ -1924,3 +1924,116 @@ td.comp_feature_qustion i {
     width: 100px;
 }
 
+.row.faq_accordians {
+    display: flex;
+    justify-content: center;
+}
+h2.diagram_title.faq {
+    text-align: center;
+    font-weight: 500;
+}
+.blue_text_faq{
+    color: var(--blue);
+}
+
+.faq_accordians .accordion-button{
+    padding-right: 4rem;
+}
+
+section#forget_passowrd {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.row.forgetPassword {
+    justify-content: center;
+}
+
+.forget_pass_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forget_pass_title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.forget_password_inner_wrap {
+    padding: 4rem 3rem;
+    box-shadow: 0px 0px 58px 2px #dddddd91;
+    border-radius: 5px;
+}
+.row.register_page_button.forget_pass_submit {
+    text-align: center;
+}
+
+.row.register_page_button.forget_pass_submit .btn.btn-dark {
+    margin: 0rem 0;
+    margin-bottom: 2rem;
+    color: var(--white);
+    background: var(--blue);
+}
+
+.row.register_page_button.forget_pass_submit .btn.btn-dark:hover {
+    color: var(--blue);
+    background: var(--white);
+}
+
+.forget_pass_back_to_home .back_to_home a i {background: var(--yellow);width: 25px;height: 25px;border-radius: 100%;display: grid;place-items: center;color: var(--white);margin-right: .5rem;}
+
+.forget_pass_back_to_home p {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.forget_pass_back_to_home p a {
+    color: var(--blue);
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+}
+p.patent_no {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.forget_pass_back_to_home .back_to_home{
+padding: 1rem 0;
+}
+
+#passowrd_recovery .form-check-input{
+cursor: pointer;
+}
+.recovery_password_form p{
+    margin-bottom: 2rem;
+}
+#update_password,
+#otp_code_verification,
+section#passowrd_recovery {
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+}
+.new_passowd_item .fa-eye{
+    display: none;
+}
+.confirm_passowd_item .fa-eye{
+    display: none;
+}
+.confirm_passowd_item,
+.new_passowd_item{
+    position: relative;
+}
+.confirm_passowd_item i,
+.new_passowd_item i{
+    position: absolute;
+    right: 27px;
+    top: 39px;
+}

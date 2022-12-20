@@ -641,6 +641,21 @@
         #instruction_video {
             padding-bottom: 1rem;
         }
+        .forget_pass_header .back_to_home,
+        .forget_pass_back_to_home .back_to_home {
+            padding: 0;
+        }
+        .forget_password_inner_wrap {
+            padding: 1rem 2rem;
+            box-shadow: 0px 0px 22px 2px #dddddd4a;
+            border-radius: 5px;
+        }
+        .forget_pass_header {
+          
+            margin-top: 3rem;
+        }
+
+       
     }
 
 
@@ -1193,8 +1208,22 @@
         #users {
             margin-top: 4rem;
         }
-
-
+        .faq_accordians .accordion-button {
+            padding-right: 2rem;
+        }
+        .terms_condition .accordion-body,
+        .faq_accordians .accordion-body {
+            padding-right: 1rem;
+        }
+        .forget_pass_header {
+          
+            margin-top: 2rem;
+        }
+        .forget_pass_title {
+          
+            font-size: 2.4rem;
+            margin: 2rem 0;
+        }
 
     }
 
