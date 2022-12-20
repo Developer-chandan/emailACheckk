@@ -1962,7 +1962,7 @@ section#forget_passowrd {
 
 .forget_password_inner_wrap {
     padding: 4rem 3rem;
-    box-shadow: 0px 0px 58px 2px #dddddd91;
+    box-shadow: 0px 0px 156px 2px #ddddddd6;
     border-radius: 5px;
 }
 .row.register_page_button.forget_pass_submit {
@@ -2036,4 +2036,10 @@ section#passowrd_recovery {
     position: absolute;
     right: 27px;
     top: 39px;
+}
+.otp_coutdown{
+    color: var(--blue);
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 6px;
 }
